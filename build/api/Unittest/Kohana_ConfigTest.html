@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_ConfigTest</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_ConfigTest</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests the Config lib that's shipped with kohana</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Matt Button &lt;<a href="mailto:matthew@sigswitch.com">matthew@sigswitch.com</a>&gt;</li>
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">author:</span> Jeremy Bush &lt;<a href="mailto:contractfrombelow@gmail.com">contractfrombelow@gmail.com</a>&gt;</li>
+				<li><span class="field">copyright:</span> (c) 2008-2010 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_tests---kohana---ConfigTest.php.html">/tests/kohana/ConfigTest.php</a> (line <span class="field">15</span>)
+		</p>
+		
+				
+		<pre>Kohana_Unittest_TestCase
+   |
+   --Kohana_ConfigTest</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																				
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_attach_adds_reader_and_returns_this" title="details" class="method-name">test_attach_adds_reader_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_attach_adds_reader_to_front_of_queue" title="details" class="method-name">test_attach_adds_reader_to_front_of_queue</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_attach_can_add_reader_to_end_of_queue" title="details" class="method-name">test_attach_can_add_reader_to_end_of_queue</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_detach_removes_reader_and_returns_this" title="details" class="method-name">test_detach_removes_reader_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_detach_returns_this_even_when_reader_dnx" title="details" class="method-name">test_detach_returns_this_even_when_reader_dnx</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_initially_there_are_no_readers" title="details" class="method-name">test_initially_there_are_no_readers</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_instance_returns_singleton_instance" title="details" class="method-name">test_instance_returns_singleton_instance</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_load_interrogates_each_reader_until_group_found" title="details" class="method-name">test_load_interrogates_each_reader_until_group_found</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_load_returns_new_config_group_if_one_dnx" title="details" class="method-name">test_load_returns_new_config_group_if_one_dnx</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_load_throws_exception_if_there_are_no_readers" title="details" class="method-name">test_load_throws_exception_if_there_are_no_readers</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodtest_attach_adds_reader_and_returns_this" id="test_attach_adds_reader_and_returns_this"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_attach_adds_reader_and_returns_this</span> (line <span class="line-number">52</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test that calling attach() on a kohana config object  adds the specified reader to the config object</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_attach_adds_reader_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_attach_adds_reader_to_front_of_queue" id="test_attach_adds_reader_to_front_of_queue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_attach_adds_reader_to_front_of_queue</span> (line <span class="line-number">69</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">By default (or by passing TRUE as the second parameter) the config object  should prepend the reader to the front of the readers queue</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_attach_adds_reader_to_front_of_queue
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_attach_can_add_reader_to_end_of_queue" id="test_attach_can_add_reader_to_end_of_queue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_attach_can_add_reader_to_end_of_queue</span> (line <span class="line-number">99</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test that attaching a new reader (and passing FALSE as second param) causes  phpunit to append the reader rather than prepend</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_attach_can_add_reader_to_end_of_queue
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_detach_removes_reader_and_returns_this" id="test_detach_removes_reader_and_returns_this"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_detach_removes_reader_and_returns_this</span> (line <span class="line-number">117</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Calling detach() on a config object should remove it from the queue of readers</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_detach_removes_reader_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_detach_returns_this_even_when_reader_dnx" id="test_detach_returns_this_even_when_reader_dnx"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_detach_returns_this_even_when_reader_dnx</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">detach() should return $this even if the specified reader does not exist</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_detach_returns_this_even_when_reader_dnx
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_initially_there_are_no_readers" id="test_initially_there_are_no_readers"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_initially_there_are_no_readers</span> (line <span class="line-number">38</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">When a config object is initially created there should be  no readers attached</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_initially_there_are_no_readers
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_instance_returns_singleton_instance" id="test_instance_returns_singleton_instance"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_instance_returns_singleton_instance</span> (line <span class="line-number">25</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Calling Kohana_Config::instance() should return the global singleton  which should persist</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_instance_returns_singleton_instance
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_load_interrogates_each_reader_until_group_found" id="test_load_interrogates_each_reader_until_group_found"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_load_interrogates_each_reader_until_group_found</span> (line <span class="line-number">179</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">When load() is called it should interrogate each reader in turn until a match  is found</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_load_interrogates_each_reader_until_group_found
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_load_returns_new_config_group_if_one_dnx" id="test_load_returns_new_config_group_if_one_dnx"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_load_returns_new_config_group_if_one_dnx</span> (line <span class="line-number">217</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Calling load() with a group that doesn't exist, should get it to use the last reader  to create a new config group</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_load_returns_new_config_group_if_one_dnx
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_load_throws_exception_if_there_are_no_readers" id="test_load_throws_exception_if_there_are_no_readers"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_load_throws_exception_if_there_are_no_readers</span> (line <span class="line-number">163</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">If load() is called and there are no readers present then it should throw  a kohana exception</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_load_throws_exception_if_there_are_no_readers
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:10 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

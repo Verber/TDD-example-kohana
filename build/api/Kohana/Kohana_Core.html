@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_Core</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_Core</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Contains the most low-level helpers methods in Kohana:</p>
+<p class="description"><p><ul><li>Environment initialization</li><li>Locating files within the cascading filesystem</li><li>Auto-loading and transparent extension of classes</li><li>Variable and path debugging</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---kohana---core.php.html">/classes/kohana/core.php</a> (line <span class="field">16</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../Kohana/Kohana.html">Kohana</a></td>
+					<td>
+											Contains the most low-level helpers methods in Kohana:
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CODENAME" title="details" class="const-name">CODENAME</a> = 					<span class="var-type"> 'großen jäger'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#DEBUG" title="details" class="const-name">DEBUG</a> = 					<span class="var-type"> 'DEBUG'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#DEVELOPMENT" title="details" class="const-name">DEVELOPMENT</a> = 					<span class="var-type"> 'development'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#ERROR" title="details" class="const-name">ERROR</a> = 					<span class="var-type"> 'ERROR'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#FILE_CACHE" title="details" class="const-name">FILE_CACHE</a> = 					<span class="var-type"> &quot;:header \n\n// :name\n\n:data\n&quot;</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#FILE_SECURITY" title="details" class="const-name">FILE_SECURITY</a> = 					<span class="var-type"> '&lt;?php defined(\'SYSPATH\') or die(\'No direct script access.\');'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#INFO" title="details" class="const-name">INFO</a> = 					<span class="var-type"> 'INFO'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#PRODUCTION" title="details" class="const-name">PRODUCTION</a> = 					<span class="var-type"> 'production'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#STAGING" title="details" class="const-name">STAGING</a> = 					<span class="var-type"> 'staging'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TESTING" title="details" class="const-name">TESTING</a> = 					<span class="var-type"> 'testing'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#VERSION" title="details" class="const-name">VERSION</a> = 					<span class="var-type"> '3.0.8'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$base_url" title="details" class="var-name">$base_url</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$cache_dir" title="details" class="var-name">$cache_dir</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">integer</span>
+					<a href="#$cache_life" title="details" class="var-name">$cache_life</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$caching" title="details" class="var-name">$caching</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$charset" title="details" class="var-name">$charset</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">object config</span>
+					<a href="#$config" title="details" class="var-name">$config</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$environment" title="details" class="var-name">$environment</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$errors" title="details" class="var-name">$errors</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$error_view" title="details" class="var-name">$error_view</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">string</span>
+					<a href="#$index_file" title="details" class="var-name">$index_file</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$is_cli" title="details" class="var-name">$is_cli</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$is_windows" title="details" class="var-name">$is_windows</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">object logging</span>
+					<a href="#$log" title="details" class="var-name">$log</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$log_errors" title="details" class="var-name">$log_errors</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$magic_quotes" title="details" class="var-name">$magic_quotes</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">array</span>
+					<a href="#$php_errors" title="details" class="var-name">$php_errors</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$profiling" title="details" class="var-name">$profiling</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">array</span>
+					<a href="#$shutdown_errors" title="details" class="var-name">$shutdown_errors</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_files" title="details" class="var-name">$_files</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_files_changed" title="details" class="var-name">$_files_changed</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_init" title="details" class="var-name">$_init</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_modules" title="details" class="var-name">$_modules</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_paths" title="details" class="var-name">$_paths</a>
+				</div>
+																																																																																																																																																																																																							</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">boolean</span>
+										<a href="#auto_load" title="details" class="method-name">auto_load</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">mixed</span>
+										<a href="#cache" title="details" class="method-name">cache</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$data</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$lifetime</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result"><a href="../Kohana/Kohana_Config.html">Kohana_Config</a></span>
+										<a href="#config" title="details" class="method-name">config</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#debug" title="details" class="method-name">debug</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">0</span>, <span class="var-type">...</span>&nbsp;<span class="var-name">1</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#debug_path" title="details" class="method-name">debug_path</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#debug_source" title="details" class="method-name">debug_source</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$line_number</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$padding</span> = <span class="var-default">5</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#deinit" title="details" class="method-name">deinit</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#dump" title="details" class="method-name">dump</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">128</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">TRUE</span>
+										<a href="#error_handler" title="details" class="method-name">error_handler</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$code</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$error</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$file</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$line</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">boolean</span>
+										<a href="#exception_handler" title="details" class="method-name">exception_handler</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$e</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#exception_text" title="details" class="method-name">exception_text</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$e</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#find_file" title="details" class="method-name">find_file</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$dir</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ext</span> = <span class="var-default">NULL</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$array</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#globals" title="details" class="method-name">globals</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#include_paths" title="details" class="method-name">include_paths</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#init" title="details" class="method-name">init</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$settings</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#list_files" title="details" class="method-name">list_files</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$directory</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$paths</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">mixed</span>
+										<a href="#load" title="details" class="method-name">load</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#message" title="details" class="method-name">message</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">NULL</span>], [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#modules" title="details" class="method-name">modules</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$modules</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">mixed</span>
+										<a href="#sanitize" title="details" class="method-name">sanitize</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">void</span>
+										<a href="#shutdown_handler" title="details" class="method-name">shutdown_handler</a>
+										()
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#trace" title="details" class="method-name">trace</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$trace</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#_dump" title="details" class="method-name">_dump</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$var</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">128</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$level</span> = <span class="var-default">0</span>])
+									</div>
+								
+																																																																																																																																																																																												</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$base_url" id="$base_url"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$base_url</span>
+			 = <span class="var-default"> '/'</span>			(line <span class="line-number">86</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> base URL to the application</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$cache_dir" id="$cache_dir"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$cache_dir</span>
+						(line <span class="line-number">96</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> cache directory</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$cache_life" id="$cache_life"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">integer</span>
+			<span class="var-name">$cache_life</span>
+			 = <span class="var-default"> 60</span>			(line <span class="line-number">101</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> default lifetime for caching, in seconds</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$caching" id="$caching"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$caching</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">106</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> enabling internal caching?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$charset" id="$charset"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$charset</span>
+			 = <span class="var-default"> 'utf-8'</span>			(line <span class="line-number">81</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> character set of input and output</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$config" id="$config"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">object config</span>
+			<span class="var-name">$config</span>
+						(line <span class="line-number">136</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> object</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$environment" id="$environment"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$environment</span>
+			 = <span class="var-default"> Kohana::DEVELOPMENT</span>			(line <span class="line-number">56</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> current environment name</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$errors" id="$errors"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$errors</span>
+			 = <span class="var-default"> TRUE</span>			(line <span class="line-number">116</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> enable error handling?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$error_view" id="$error_view"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$error_view</span>
+			 = <span class="var-default"> 'kohana/error'</span>			(line <span class="line-number">121</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> error rendering view</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$index_file" id="$index_file"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">string</span>
+			<span class="var-name">$index_file</span>
+			 = <span class="var-default"> 'index.php'</span>			(line <span class="line-number">91</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> application index file</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$is_cli" id="$is_cli"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$is_cli</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">61</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> command line environment?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$is_windows" id="$is_windows"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$is_windows</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">66</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> Windows environment?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$log" id="$log"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">object logging</span>
+			<span class="var-name">$log</span>
+						(line <span class="line-number">131</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> object</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$log_errors" id="$log_errors"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$log_errors</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">76</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> log errors and exceptions?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$magic_quotes" id="$magic_quotes"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$magic_quotes</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">71</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> magic quotes enabled?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$php_errors" id="$php_errors"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">array</span>
+			<span class="var-name">$php_errors</span>
+			 = <span class="var-default">array(<br />		E_ERROR              =&gt; 'Fatal Error',<br />		E_USER_ERROR         =&gt; 'User Error',<br />		E_PARSE              =&gt; 'Parse Error',<br />		E_WARNING            =&gt; 'Warning',<br />		E_USER_WARNING       =&gt; 'User Warning',<br />		E_STRICT             =&gt; 'Strict',<br />		E_NOTICE             =&gt; 'Notice',<br />		E_RECOVERABLE_ERROR  =&gt; 'Recoverable Error',<br />	)</span>			(line <span class="line-number">42</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> PHP error code =&gt; human readable name</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$profiling" id="$profiling"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$profiling</span>
+			 = <span class="var-default"> TRUE</span>			(line <span class="line-number">111</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> enable core profiling?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$shutdown_errors" id="$shutdown_errors"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">array</span>
+			<span class="var-name">$shutdown_errors</span>
+			 = <span class="var-default">array(E_PARSE, E_ERROR, E_USER_ERROR, E_COMPILE_ERROR)</span>			(line <span class="line-number">126</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> types of errors to display at shutdown</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_files" id="$_files"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_files</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">148</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_files_changed" id="$_files_changed"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_files_changed</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">151</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_init" id="$_init"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_init</span>
+			 = <span class="var-default"> FALSE</span>			(line <span class="line-number">139</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_modules" id="$_modules"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_modules</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">142</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_paths" id="$_paths"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_paths</span>
+			 = <span class="var-default">array(APPPATH, SYSPATH)</span>			(line <span class="line-number">145</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodauto_load" id="auto_load"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method auto_load</span> (line <span class="line-number">478</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides auto-loading support of Kohana classes, as well as transparent  extension of classes that have a _Core suffix.</p>
+<p class="description"><p>Class names are converted to file names by making the class name  lowercase and converting underscores to slashes:</p><p>// Loads classes/my/class/name.php      Kohana::auto_load('My_Class_Name');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			auto_load
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$class</span><span class="var-description">: class name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcache" id="cache"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method cache</span> (line <span class="line-number">823</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides simple file-based caching for strings and arrays:</p>
+<p class="description"><p>// Set the &quot;foo&quot; cache      Kohana::cache('foo', 'hello, world');</p><p>// Get the &quot;foo&quot; cache      $foo = Kohana::cache('foo');</p><p>All caches are stored as PHP code, generated with [var_export][ref-var].  Caching objects may not work as expected. Storing references or an  object or array that has recursion will cause an E_FATAL.</p><p>[ref-var]: http://php.net/var_export</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> for getting</li>
+				<li><span class="field">throws:</span> Kohana_Exception</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			cache
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$name</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$data</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$lifetime</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$name</span><span class="var-description">: name of the cache</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$data</span><span class="var-description">: data to cache</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$lifetime</span><span class="var-description">: number of seconds the cache is valid for</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodconfig" id="config"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method config</span> (line <span class="line-number">775</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Creates a new configuration object for the requested group.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result"><a href="../Kohana/Kohana_Config.html">Kohana_Config</a></span>
+		<span class="method-name">
+			config
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$group</span><span class="var-description">: group name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddebug" id="debug"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method debug</span> (line <span class="line-number">1120</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an HTML string of debugging information about any number of  variables, each wrapped in a &quot;pre&quot; tag:</p>
+<p class="description"><p>// Displays the type and value of each variable      echo Kohana::debug($foo, $bar, $baz);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			debug
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">0</span>, <span class="var-type">...</span>&nbsp;<span class="var-name">1</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">0</span><span class="var-description">: variable to debug</span>			</li>
+					<li>
+				<span class="var-type">...</span>
+				<span class="var-name">1</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddebug_path" id="debug_path"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method debug_path</span> (line <span class="line-number">1344</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Removes application, system, modpath, or docroot from a filename,  replacing them with the plain text equivalents. Useful for debugging  when you want to display a shorter path.</p>
+<p class="description"><p>// Displays SYSPATH/classes/kohana.php      echo Kohana::debug_path(Kohana::find_file('classes', 'kohana'));</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			debug_path
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$file</span><span class="var-description">: path to debug</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddebug_source" id="debug_source"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method debug_source</span> (line <span class="line-number">1379</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an HTML string, highlighting a specific line of a file, with some  number of lines padded above and below.</p>
+<p class="description"><p>// Highlights the current line of the current file      echo Kohana::debug_source(__FILE__, __LINE__);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> source of file</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			debug_source
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$line_number</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$padding</span> = <span class="var-default">5</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$file</span><span class="var-description">: file to open</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$line_number</span><span class="var-description">: line number to highlight</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$padding</span><span class="var-description">: number of padding lines</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeinit" id="deinit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method deinit</span> (line <span class="line-number">352</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Cleans up the environment:</p>
+<p class="description"><p><ul><li>Restore the previous error and exception handlers</li><li>Destroy the Kohana::$log and Kohana::$config objects</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			deinit
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methoddump" id="dump"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method dump</span> (line <span class="line-number">1146</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an HTML string of information about a single variable.</p>
+<p class="description"><p>Borrows heavily on concepts from the Debug class of [Nette](http://nettephp.com/).</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			dump
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">128</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span><span class="var-description">: variable to dump</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: maximum length of strings</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoderror_handler" id="error_handler"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method error_handler</span> (line <span class="line-number">943</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">PHP error handler, converts all errors into ErrorExceptions. This handler  respects error_reporting settings.</p>
+	<ul class="tags">
+				<li><span class="field">throws:</span> ErrorException</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">TRUE</span>
+		<span class="method-name">
+			error_handler
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$code</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$error</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$file</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$line</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$code</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$error</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$file</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$line</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodexception_handler" id="exception_handler"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method exception_handler</span> (line <span class="line-number">964</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Inline exception handler, displays the error message, source of the  exception, and the stack trace of the error.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> Kohana::exception_text</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			exception_handler
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$e</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object exception</span>
+				<span class="var-name">$e</span><span class="var-description">: object</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodexception_text" id="exception_text"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method exception_text</span> (line <span class="line-number">1103</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a single line of text representing the exception:</p>
+<p class="description"><p>Error [ Code ]: Message ~ File [ Line ]</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			exception_text
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$e</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object Exception</span>
+				<span class="var-name">$e</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfind_file" id="find_file"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method find_file</span> (line <span class="line-number">589</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds the path of a file by directory, filename, and extension.</p>
+<p class="description"><p>If no extension is given, the default EXT extension will be used.</p><p>When searching the &quot;config&quot; or &quot;i18n&quot; directories, or when the  $aggregate_files flag is set to true, an array of files  will be returned. These files will return arrays which must be  merged together.</p><p>// Returns an absolute path to views/template.php      Kohana::find_file('views', 'template');</p><p>// Returns an absolute path to media/css/style.css      Kohana::find_file('media', 'css/style', 'css');</p><p>// Returns an array of all the &quot;mimes&quot; configuration file      Kohana::find_file('config', 'mimes');</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> a list of files when $array is TRUE</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			find_file
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$dir</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$ext</span> = <span class="var-default">NULL</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$array</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$dir</span><span class="var-description">: directory name (views, i18n, classes, extensions, etc.)</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$file</span><span class="var-description">: filename with subdirectory</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ext</span><span class="var-description">: extension to search for</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$array</span><span class="var-description">: return an array of files?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodglobals" id="globals"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method globals</span> (line <span class="line-number">394</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Reverts the effects of the `register_globals` PHP setting by unsetting  all global varibles except for the default super globals (GPCS, etc).</p>
+<p class="description"><p>if (ini_get('register_globals'))      {          Kohana::globals();      }</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			globals
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinclude_paths" id="include_paths"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method include_paths</span> (line <span class="line-number">559</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the the currently active include paths, including the  application and system paths.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			include_paths
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodinit" id="init"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method init</span> (line <span class="line-number">184</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Initializes the environment:</p>
+<p class="description"><p><ul><li>Disables register_globals and magic_quotes_gpc</li><li>Determines the current environment</li><li>Set global settings</li><li>Sanitizes GET, POST, and COOKIE variables</li><li>Converts GET, POST, and COOKIE variables to the global character set</li></ul>  Any of the global settings can be set here:</p><p>Type      | Setting    | Description                                    | Default Value  ----------|------------|------------------------------------------------|---------------  `boolean` | errors     | use internal error and exception handling?     | `TRUE`  `boolean` | profile    | do internal benchmarking?                      | `TRUE`  `boolean` | caching    | cache the location of files between requests?  | `FALSE`  `string`  | charset    | character set used for all input and output    | `&quot;utf-8&quot;`  `string`  | base_url   | set the base URL for the application           | `&quot;/&quot;`  `string`  | index_file | set the index.php file name                    | `&quot;index.php&quot;`  `string`  | cache_dir  | set the cache directory path                   | `APPPATH.&quot;cache&quot;`  `integer` | cache_life | set the default cache lifetime                 | `60`  `string`  | error_view | set the error rendering view                   | `&quot;kohana/error&quot;`</p></p>
+	<ul class="tags">
+				<li><span class="field">throws:</span> Kohana_Exception</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> <a href="../Kohana/Profiler.html">Profiler</a></li>
+				<li><span class="field">uses:</span> Kohana::sanitize</li>
+				<li><span class="field">uses:</span> Kohana::cache</li>
+				<li><span class="field">uses:</span> Kohana::globals</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			init
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$settings</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$settings</span><span class="var-description">: global settings</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodlist_files" id="list_files"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method list_files</span> (line <span class="line-number">684</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Recursively finds all of the files in the specified directory.</p>
+<p class="description"><p>$views = Kohana::list_files('views');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			list_files
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$directory</span> = <span class="var-default">NULL</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$paths</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$directory</span><span class="var-description">: directory name</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$paths</span><span class="var-description">: list of paths to search</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodload" id="load"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method load</span> (line <span class="line-number">764</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Loads a file within a totally empty scope and returns the output:</p>
+<p class="description"><p>$foo = Kohana::load('foo.php');</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			load
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$file</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmessage" id="message"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method message</span> (line <span class="line-number">905</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a message from a file. Messages are arbitary strings that are stored  in the messages/ directory and reference by a key. Translation is not  performed on the returned values.</p>
+<p class="description"><p>// Get &quot;username&quot; from messages/text.php      $username = Kohana::message('text', 'username');</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> message string for the given path</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> Arr::path</li>
+				<li><span class="field">uses:</span> Arr::merge</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			message
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span> = <span class="var-default">NULL</span>], [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$file</span><span class="var-description">: file name</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$path</span><span class="var-description">: key path to get</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$default</span><span class="var-description">: default value if the path does not exist</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmodules" id="modules"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method modules</span> (line <span class="line-number">505</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Changes the currently enabled modules. Module paths may be relative  or absolute, but must point to a directory:</p>
+<p class="description"><p>Kohana::modules(array('modules/foo', MODPATH.'bar'));</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> enabled modules</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			modules
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$modules</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$modules</span><span class="var-description">: list of module paths</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsanitize" id="sanitize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method sanitize</span> (line <span class="line-number">437</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Recursively sanitizes an input variable:</p>
+<p class="description"><p><ul><li>Strips slashes if magic quotes are enabled</li><li>Normalizes all newlines to LF</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> sanitized variable</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			sanitize
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span><span class="var-description">: any variable</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodshutdown_handler" id="shutdown_handler"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method shutdown_handler</span> (line <span class="line-number">1060</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Catches errors that are not caught by the error handler, such as E_PARSE.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> Kohana::exception_handler</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">void</span>
+		<span class="method-name">
+			shutdown_handler
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtrace" id="trace"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method trace</span> (line <span class="line-number">1442</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an array of HTML strings that represent each step in the backtrace.</p>
+<p class="description"><p>// Displays the entire current backtrace      echo implode('<br />', Kohana::trace());</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			trace
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$trace</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$trace</span><span class="var-description">: path to debug</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_dump" id="_dump"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method _dump</span> (line <span class="line-number">1159</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helper for Kohana::dump(), handles recursion in arrays and objects.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			_dump
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$var</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">128</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$level</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">&$var</span><span class="var-description">: variable to dump</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: maximum length of strings</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$level</span><span class="var-description">: recursion level (internal)</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constCODENAME" id="CODENAME"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CODENAME</span>
+			 = <span class="const-default"> 'großen jäger'</span>
+			(line <span class="line-number">20</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constDEBUG" id="DEBUG"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEBUG</span>
+			 = <span class="const-default"> 'DEBUG'</span>
+			(line <span class="line-number">24</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constDEVELOPMENT" id="DEVELOPMENT"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEVELOPMENT</span>
+			 = <span class="const-default"> 'development'</span>
+			(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constERROR" id="ERROR"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">ERROR</span>
+			 = <span class="const-default"> 'ERROR'</span>
+			(line <span class="line-number">23</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constFILE_CACHE" id="FILE_CACHE"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">FILE_CACHE</span>
+			 = <span class="const-default"> &quot;:header \n\n// :name\n\n:data\n&quot;</span>
+			(line <span class="line-number">37</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constFILE_SECURITY" id="FILE_SECURITY"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">FILE_SECURITY</span>
+			 = <span class="const-default"> '&lt;?php defined(\'SYSPATH\') or die(\'No direct script access.\');'</span>
+			(line <span class="line-number">34</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constINFO" id="INFO"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">INFO</span>
+			 = <span class="const-default"> 'INFO'</span>
+			(line <span class="line-number">25</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constPRODUCTION" id="PRODUCTION"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">PRODUCTION</span>
+			 = <span class="const-default"> 'production'</span>
+			(line <span class="line-number">28</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSTAGING" id="STAGING"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">STAGING</span>
+			 = <span class="const-default"> 'staging'</span>
+			(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constTESTING" id="TESTING"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TESTING</span>
+			 = <span class="const-default"> 'testing'</span>
+			(line <span class="line-number">30</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constVERSION" id="VERSION"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">VERSION</span>
+			 = <span class="const-default"> '3.0.8'</span>
+			(line <span class="line-number">19</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+						
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:11 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-methods">Methods</a>
+						
+											<a href="#sec-consts">Constants</a>
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Contains the most low-level helpers methods in Kohana:</p>
+<p class="description"><p><ul><li>Environment initialization</li><li>Locating files within the cascading filesystem</li><li>Auto-loading and transparent extension of classes</li><li>Variable and path debugging</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---kohana.php.html">/classes/kohana.php</a> (line <span class="field">3</span>)
+		</p>
+		
+				
+		<pre><a href="../Kohana/Kohana_Core.html">Kohana_Core</a>
+   |
+   --Kohana</pre>
+	
+			</div>
+</div>
+
+
+
+
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<span class="disabled">Vars</span>
+						
+			
+												<a href="#sec-consts">Constants</a>
+							
+										| 
+									<a href="#sec-methods">Methods</a>
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../Kohana/Kohana_Core.html">Kohana_Core</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$base_url">Kohana_Core::$base_url</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$cache_dir">Kohana_Core::$cache_dir</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$cache_life">Kohana_Core::$cache_life</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$caching">Kohana_Core::$caching</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$charset">Kohana_Core::$charset</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$config">Kohana_Core::$config</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$environment">Kohana_Core::$environment</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$errors">Kohana_Core::$errors</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$error_view">Kohana_Core::$error_view</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$index_file">Kohana_Core::$index_file</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$is_cli">Kohana_Core::$is_cli</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$is_windows">Kohana_Core::$is_windows</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$log">Kohana_Core::$log</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$log_errors">Kohana_Core::$log_errors</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$magic_quotes">Kohana_Core::$magic_quotes</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$php_errors">Kohana_Core::$php_errors</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$profiling">Kohana_Core::$profiling</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$shutdown_errors">Kohana_Core::$shutdown_errors</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$_files">Kohana_Core::$_files</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$_files_changed">Kohana_Core::$_files_changed</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$_init">Kohana_Core::$_init</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$_modules">Kohana_Core::$_modules</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Core.html#var$_paths">Kohana_Core::$_paths</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-vars">Vars</a>
+																			<a href="#sec-consts">Constants</a>
+							
+										<span class="disabled">Methods</span>
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Kohana/Kohana_Core.html">Kohana_Core</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodauto_load">Kohana_Core::auto_load()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodcache">Kohana_Core::cache()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodconfig">Kohana_Core::config()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoddebug">Kohana_Core::debug()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoddebug_path">Kohana_Core::debug_path()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoddebug_source">Kohana_Core::debug_source()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoddeinit">Kohana_Core::deinit()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoddump">Kohana_Core::dump()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methoderror_handler">Kohana_Core::error_handler()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodexception_handler">Kohana_Core::exception_handler()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodexception_text">Kohana_Core::exception_text()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodfind_file">Kohana_Core::find_file()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodglobals">Kohana_Core::globals()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodinclude_paths">Kohana_Core::include_paths()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodinit">Kohana_Core::init()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodlist_files">Kohana_Core::list_files()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodload">Kohana_Core::load()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodmessage">Kohana_Core::message()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodmodules">Kohana_Core::modules()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodsanitize">Kohana_Core::sanitize()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodshutdown_handler">Kohana_Core::shutdown_handler()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#methodtrace">Kohana_Core::trace()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Core.html#method_dump">Kohana_Core::_dump()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<span class="disabled">Constants</span>
+						
+			
+												<a href="#sec-vars">Vars</a>
+														| 
+									<a href="#sec-methods">Methods</a>
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../Kohana/Kohana_Core.html">Kohana_Core</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constCODENAME">Kohana_Core::CODENAME</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constDEBUG">Kohana_Core::DEBUG</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constDEVELOPMENT">Kohana_Core::DEVELOPMENT</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constERROR">Kohana_Core::ERROR</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constFILE_CACHE">Kohana_Core::FILE_CACHE</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constFILE_SECURITY">Kohana_Core::FILE_SECURITY</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constINFO">Kohana_Core::INFO</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constPRODUCTION">Kohana_Core::PRODUCTION</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constSTAGING">Kohana_Core::STAGING</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constTESTING">Kohana_Core::TESTING</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../Kohana/Kohana_Core.html#constVERSION">Kohana_Core::VERSION</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:15 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

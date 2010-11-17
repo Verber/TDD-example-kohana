@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_ValidateTest</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_ValidateTest</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests the Validate lib that's shipped with Kohana</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> BRMatt &lt;<a href="mailto:matthew@sigswitch.com">matthew@sigswitch.com</a>&gt;</li>
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_tests---kohana---ValidateTest.php.html">/tests/kohana/ValidateTest.php</a> (line <span class="field">15</span>)
+		</p>
+		
+				
+		<pre>Kohana_Unittest_TestCase
+   |
+   --Kohana_ValidateTest</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_alpha" title="details" class="method-name">provider_alpha</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_alpha_dash" title="details" class="method-name">provider_alpha_dash</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_check" title="details" class="method-name">provider_check</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_color" title="details" class="method-name">provider_color</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_credit_card" title="details" class="method-name">provider_credit_card</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_date" title="details" class="method-name">provider_date</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_decimal" title="details" class="method-name">provider_decimal</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_digit" title="details" class="method-name">provider_digit</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_email" title="details" class="method-name">provider_email</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_email_domain" title="details" class="method-name">provider_email_domain</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_errors" title="details" class="method-name">provider_errors</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_exact_length" title="details" class="method-name">provider_exact_length</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_ip" title="details" class="method-name">provider_ip</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_luhn" title="details" class="method-name">provider_luhn</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_max_length" title="details" class="method-name">provider_max_length</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_min_length" title="details" class="method-name">provider_min_length</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_not_empty" title="details" class="method-name">provider_not_empty</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_numeric" title="details" class="method-name">provider_numeric</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_phone" title="details" class="method-name">provider_phone</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_range" title="details" class="method-name">provider_range</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_regex" title="details" class="method-name">provider_regex</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_url" title="details" class="method-name">provider_url</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provide_alpha_numeric" title="details" class="method-name">provide_alpha_numeric</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_alpha" title="details" class="method-name">test_alpha</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$utf8</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_alpha_dash" title="details" class="method-name">test_alpha_dash</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$contains_utf8</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_alpha_numeric" title="details" class="method-name">test_alpha_numeric</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$utf8</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_callbacks_stores_multiple_callbacks" title="details" class="method-name">test_callbacks_stores_multiple_callbacks</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_callback_returns_chainable_this" title="details" class="method-name">test_callback_returns_chainable_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_callback_stores_callback" title="details" class="method-name">test_callback_stores_callback</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_check" title="details" class="method-name">test_check</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rules</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$callbacks</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected_errors</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_check_allows_option_for_empty_data_array_to_validate" title="details" class="method-name">test_check_allows_option_for_empty_data_array_to_validate</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_color" title="details" class="method-name">test_color</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$color</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_copy_copies_all_attributes_except_data" title="details" class="method-name">test_copy_copies_all_attributes_except_data</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_credit_card" title="details" class="method-name">test_credit_card</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_date" title="details" class="method-name">test_date</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$date</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_decimal" title="details" class="method-name">test_decimal</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$decimal</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$places</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$digits</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_digit" title="details" class="method-name">test_digit</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$contains_utf8</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_email" title="details" class="method-name">test_email</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$email</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$strict</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_email_domain" title="details" class="method-name">test_email_domain</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$email</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_errors" title="details" class="method-name">test_errors</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rules</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#test_exact_length" title="details" class="method-name">test_exact_length</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_factory_method_returns_instance_with_values" title="details" class="method-name">test_factory_method_returns_instance_with_values</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_filters_adds_multiple_filters_and_returns_this" title="details" class="method-name">test_filters_adds_multiple_filters_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_filter_adds_a_filter_and_returns_this" title="details" class="method-name">test_filter_adds_a_filter_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_initially_there_are_no_callbacks" title="details" class="method-name">test_initially_there_are_no_callbacks</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_initially_there_are_no_labels" title="details" class="method-name">test_initially_there_are_no_labels</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_ip" title="details" class="method-name">test_ip</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$input_ip</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$allow_private</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected_result</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_labels_adds_and_overwrites_multiple_labels_and_returns_this" title="details" class="method-name">test_labels_adds_and_overwrites_multiple_labels_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_label_adds_and_overwrites_label_and_returns_this" title="details" class="method-name">test_label_adds_and_overwrites_label_and_returns_this</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_luhn" title="details" class="method-name">test_luhn</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_max_length" title="details" class="method-name">test_max_length</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$maxlength</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_min_length" title="details" class="method-name">test_min_length</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$minlength</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_not_empty" title="details" class="method-name">test_not_empty</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$empty</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_numeric" title="details" class="method-name">test_numeric</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_object_callback_with_parameters" title="details" class="method-name">test_object_callback_with_parameters</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_phone" title="details" class="method-name">test_phone</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$phone</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$lengths</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_range" title="details" class="method-name">test_range</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$min</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$max</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_regex" title="details" class="method-name">test_regex</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$regex</span>, <span class="var-type">bool</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_rule_adds_label_if_rule_is_match_and_label_dnx" title="details" class="method-name">test_rule_adds_label_if_rule_is_match_and_label_dnx</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_url" title="details" class="method-name">test_url</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodprovider_alpha" id="provider_alpha"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_alpha</span> (line <span class="line-number">22</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_alpha()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_alpha
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_alpha_dash" id="provider_alpha_dash"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_alpha_dash</span> (line <span class="line-number">93</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_alpha_dash</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_alpha_dash
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_check" id="provider_check"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_check</span> (line <span class="line-number">1081</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_check</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_check
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_color" id="provider_color"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_color</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::color() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_color
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_credit_card" id="provider_credit_card"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_credit_card</span> (line <span class="line-number">283</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_credit_card()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_credit_card
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_date" id="provider_date"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_date</span> (line <span class="line-number">135</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::date() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_date
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_decimal" id="provider_decimal"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_decimal</span> (line <span class="line-number">172</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::decimal() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_decimal
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_digit" id="provider_digit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_digit</span> (line <span class="line-number">205</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_digit</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_digit
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_email" id="provider_email"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_email</span> (line <span class="line-number">357</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_email()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_email
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_email_domain" id="provider_email_domain"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_email_domain</span> (line <span class="line-number">398</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns test data for test_email_domain()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_email_domain
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_errors" id="provider_errors"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_errors</span> (line <span class="line-number">1235</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_errors()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_errors
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_exact_length" id="provider_exact_length"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_exact_length</span> (line <span class="line-number">444</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides data for test_exact_length()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_exact_length
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_ip" id="provider_ip"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_ip</span> (line <span class="line-number">505</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::ip() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_ip
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_luhn" id="provider_luhn"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_luhn</span> (line <span class="line-number">320</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_credit_card()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_luhn
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_max_length" id="provider_max_length"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_max_length</span> (line <span class="line-number">540</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns test data for test_max_length()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_max_length
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_min_length" id="provider_min_length"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_min_length</span> (line <span class="line-number">577</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns test data for test_min_length()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_min_length
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_not_empty" id="provider_not_empty"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_not_empty</span> (line <span class="line-number">611</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns test data for test_not_empty()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_not_empty
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_numeric" id="provider_numeric"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_numeric</span> (line <span class="line-number">655</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the Validate::numeric() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_numeric
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_phone" id="provider_phone"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_phone</span> (line <span class="line-number">699</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_phone()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_phone
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_range" id="provider_range"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_range</span> (line <span class="line-number">768</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::range() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_range
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_regex" id="provider_regex"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_regex</span> (line <span class="line-number">735</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">DataProvider for the valid::regex() test</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_regex
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_url" id="provider_url"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_url</span> (line <span class="line-number">806</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_url()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_url
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovide_alpha_numeric" id="provide_alpha_numeric"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provide_alpha_numeric</span> (line <span class="line-number">57</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provide_alpha_numeric
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_alpha" id="test_alpha"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_alpha</span> (line <span class="line-number">46</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::alpha()</p>
+<p class="description"><p>Checks whether a string consists of alphabetical characters only.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_alpha
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$utf8</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$string</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$utf8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_alpha_dash" id="test_alpha_dash"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_alpha_dash</span> (line <span class="line-number">116</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::alpha_dash()</p>
+<p class="description"><p>Checks whether a string consists of alphabetical characters, numbers, underscores and dashes only.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_alpha_dash
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$contains_utf8</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$input</span><span class="var-description">: The string to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$contains_utf8</span><span class="var-description">: Does the string contain utf8 specific characters</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $input valid?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_alpha_numeric" id="test_alpha_numeric"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_alpha_numeric</span> (line <span class="line-number">82</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::alpha_numberic()</p>
+<p class="description"><p>Checks whether a string consists of alphabetical characters and numbers only.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_alpha_numeric
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$utf8</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$input</span><span class="var-description">: The string to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $input valid</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$utf8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_callbacks_stores_multiple_callbacks" id="test_callbacks_stores_multiple_callbacks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_callbacks_stores_multiple_callbacks</span> (line <span class="line-number">949</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Calling Validate::callbacks() should store multiple callbacks for the specified field</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_callbacks_stores_multiple_callbacks
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_callback_returns_chainable_this" id="test_callback_returns_chainable_this"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_callback_returns_chainable_this</span> (line <span class="line-number">914</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This is just a quick check that callback() returns a reference to $this</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_callback_returns_chainable_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_callback_stores_callback" id="test_callback_stores_callback"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_callback_stores_callback</span> (line <span class="line-number">927</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check that callback() is storign callbacks in the correct manner</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_callback_stores_callback
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_check" id="test_check"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_check</span> (line <span class="line-number">1124</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::check()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_check
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rules</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$callbacks</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected_errors</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: The url to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is it valid?</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rules</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$callbacks</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected_errors</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_check_allows_option_for_empty_data_array_to_validate" id="test_check_allows_option_for_empty_data_array_to_validate"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_check_allows_option_for_empty_data_array_to_validate</span> (line <span class="line-number">1180</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">In some cases (such as when validating search params in GET) it is necessary for  an empty array to validate successfully</p>
+<p class="description"><p>This test checks that Validate::check() allows the user to specify this setting when  calling check()</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_check_allows_option_for_empty_data_array_to_validate
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_color" id="test_color"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_color</span> (line <span class="line-number">272</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::color()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_color
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$color</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$color</span><span class="var-description">: The color to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $color valid</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_copy_copies_all_attributes_except_data" id="test_copy_copies_all_attributes_except_data"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_copy_copies_all_attributes_except_data</span> (line <span class="line-number">868</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">When we copy() a validate object, we should have a new validate object  with the exact same attributes, apart from the data, which should be the  same as the array we pass to copy()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_copy_copies_all_attributes_except_data
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_credit_card" id="test_credit_card"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_credit_card</span> (line <span class="line-number">309</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::credit_card()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_credit_card
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$number</span><span class="var-description">: Credit card number</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$type</span><span class="var-description">: Credit card type</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_date" id="test_date"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_date</span> (line <span class="line-number">161</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::date()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_date
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$date</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$date</span><span class="var-description">: The date to validate</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_decimal" id="test_decimal"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_decimal</span> (line <span class="line-number">192</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::decimal()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_decimal
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$decimal</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$places</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$digits</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$decimal</span><span class="var-description">: The decimal to validate</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$places</span><span class="var-description">: The number of places to check to</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$digits</span><span class="var-description">: The number of digits preceding the point to check</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Whether $decimal conforms to $places AND $digits</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_digit" id="test_digit"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_digit</span> (line <span class="line-number">226</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::digit()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_digit
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$contains_utf8</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$input</span><span class="var-description">: Input to validate</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $input valid</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$contains_utf8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_email" id="test_email"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_email</span> (line <span class="line-number">385</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::email()</p>
+<p class="description"><p>Check an email address for correct format.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_email
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$email</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$strict</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$email</span><span class="var-description">: Address to check</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$strict</span><span class="var-description">: Use strict settings</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$correct</span><span class="var-description">: Is $email address valid?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_email_domain" id="test_email_domain"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_email_domain</span> (line <span class="line-number">421</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::email_domain()</p>
+<p class="description"><p>Validate the domain of an email address by checking if the domain has a  valid MX record.</p><p>Test skips on windows</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_email_domain
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$email</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$email</span><span class="var-description">: Email domain to check</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$correct</span><span class="var-description">: Is it correct?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_errors" id="test_errors"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_errors</span> (line <span class="line-number">1261</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::errors()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_errors
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rules</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: The url to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is it valid?</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rules</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_exact_length" id="test_exact_length"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_exact_length</span> (line <span class="line-number">466</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::exact_length()</p>
+<p class="description"><p>Checks that a field is exactly the right length.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			test_exact_length
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$string</span><span class="var-description">: The string to length check</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: The length of the string</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$correct</span><span class="var-description">: Is $length the actual length of the string?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_factory_method_returns_instance_with_values" id="test_factory_method_returns_instance_with_values"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_factory_method_returns_instance_with_values</span> (line <span class="line-number">483</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::factory()</p>
+<p class="description"><p>Makes sure that the factory method returns an instance of Validate lib  and that it uses the variables passed</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_factory_method_returns_instance_with_values
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_filters_adds_multiple_filters_and_returns_this" id="test_filters_adds_multiple_filters_and_returns_this"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_filters_adds_multiple_filters_and_returns_this</span> (line <span class="line-number">1060</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">filters() should be able to add multiple filters for a field and return  $this when done</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_filters_adds_multiple_filters_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_filter_adds_a_filter_and_returns_this" id="test_filter_adds_a_filter_and_returns_this"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_filter_adds_a_filter_and_returns_this</span> (line <span class="line-number">1040</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">We should be able to add a filter to the queue by calling filter()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_filter_adds_a_filter_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_initially_there_are_no_callbacks" id="test_initially_there_are_no_callbacks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_initially_there_are_no_callbacks</span> (line <span class="line-number">901</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">By default there should be no callbacks registered with validate</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_initially_there_are_no_callbacks
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_initially_there_are_no_labels" id="test_initially_there_are_no_labels"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_initially_there_are_no_labels</span> (line <span class="line-number">973</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">When the validate object is initially created there should be no labels  specified</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_initially_there_are_no_labels
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_ip" id="test_ip"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_ip</span> (line <span class="line-number">527</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::ip()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_ip
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$input_ip</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$allow_private</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected_result</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$input_ip</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$allow_private</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected_result</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_labels_adds_and_overwrites_multiple_labels_and_returns_this" id="test_labels_adds_and_overwrites_multiple_labels_and_returns_this"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_labels_adds_and_overwrites_multiple_labels_and_returns_this</span> (line <span class="line-number">1016</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Using labels() we should be able to add / overwrite multiple labels</p>
+<p class="description"><p>The function should also return $this for chaining purposes</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_labels_adds_and_overwrites_multiple_labels_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_label_adds_and_overwrites_label_and_returns_this" id="test_label_adds_and_overwrites_label_and_returns_this"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_label_adds_and_overwrites_label_and_returns_this</span> (line <span class="line-number">989</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Adding a label to a field should set it in the labels array  If the label already exists it should overwrite it</p>
+<p class="description"><p>In both cases thefunction should return a reference to $this</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_label_adds_and_overwrites_label_and_returns_this
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_luhn" id="test_luhn"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_luhn</span> (line <span class="line-number">344</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::luhn()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_luhn
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$number</span><span class="var-description">: Credit card number</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_max_length" id="test_max_length"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_max_length</span> (line <span class="line-number">564</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::max_length()</p>
+<p class="description"><p>Checks that a field is short enough.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_max_length
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$maxlength</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$string</span><span class="var-description">: String to test</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$maxlength</span><span class="var-description">: Max length for this string</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$correct</span><span class="var-description">: Is $string &lt;= $maxlength</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_min_length" id="test_min_length"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_min_length</span> (line <span class="line-number">598</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::min_length()</p>
+<p class="description"><p>Checks that a field is long enough.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_min_length
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$string</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$minlength</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$correct</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$string</span><span class="var-description">: String to compare</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$minlength</span><span class="var-description">: The minimum allowed length</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$correct</span><span class="var-description">: Is $string 's length &gt;= $minlength</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_not_empty" id="test_not_empty"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_not_empty</span> (line <span class="line-number">644</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::not_empty()</p>
+<p class="description"><p>Checks if a field is not empty.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_not_empty
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$empty</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span><span class="var-description">: Value to check</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$empty</span><span class="var-description">: Is the value really empty?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_numeric" id="test_numeric"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_numeric</span> (line <span class="line-number">687</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::numeric()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_numeric
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$input</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$input</span><span class="var-description">: Input to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Whether or not $input is numeric</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_object_callback_with_parameters" id="test_object_callback_with_parameters"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_object_callback_with_parameters</span> (line <span class="line-number">1151</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This test asserts that Validate::check will call callbacks with all of the  parameters supplied when the callback was specified</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_object_callback_with_parameters
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_phone" id="test_phone"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_phone</span> (line <span class="line-number">724</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::phone()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_phone
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$phone</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$lengths</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$phone</span><span class="var-description">: Phone number to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $phone valid</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$lengths</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_range" id="test_range"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_range</span> (line <span class="line-number">793</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::range()</p>
+<p class="description"><p>Tests if a number is within a range.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_range
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$number</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$min</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$max</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$number</span><span class="var-description">: Number to test</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$min</span><span class="var-description">: Lower bound</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$max</span><span class="var-description">: Upper bound</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is Number within the bounds of $min &amp;&amp; $max</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_regex" id="test_regex"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_regex</span> (line <span class="line-number">757</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::range()</p>
+<p class="description"><p>Tests if a number is within a range.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_regex
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$regex</span>, <span class="var-type">bool</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: Value to test against</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$regex</span><span class="var-description">: Valid pcre regular expression</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$expected</span><span class="var-description">: Does the value match the expression?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_rule_adds_label_if_rule_is_match_and_label_dnx" id="test_rule_adds_label_if_rule_is_match_and_label_dnx"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_rule_adds_label_if_rule_is_match_and_label_dnx</span> (line <span class="line-number">1203</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">If you add a rule that says a field should match another field then  a label should be added for the field to match against to ensure that  it will be available when check() is called</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_rule_adds_label_if_rule_is_match_and_label_dnx
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_url" id="test_url"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_url</span> (line <span class="line-number">852</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Validate::url()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_url
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: The url to test</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is it valid?</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:21 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_ArrTest</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_ArrTest</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests the Arr lib that's shipped with kohana</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> BRMatt &lt;<a href="mailto:matthew@sigswitch.com">matthew@sigswitch.com</a>&gt;</li>
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_tests---kohana---ArrTest.php.html">/tests/kohana/ArrTest.php</a> (line <span class="field">14</span>)
+		</p>
+		
+				
+		<pre>Kohana_Unittest_TestCase
+   |
+   --Kohana_ArrTest</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_binary_search" title="details" class="method-name">provider_binary_search</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_callback" title="details" class="method-name">provider_callback</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_extract" title="details" class="method-name">provider_extract</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_flatten" title="details" class="method-name">provider_flatten</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_get" title="details" class="method-name">provider_get</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_is_assoc" title="details" class="method-name">provider_is_assoc</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_map" title="details" class="method-name">provider_map</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_merge" title="details" class="method-name">provider_merge</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_overwrite" title="details" class="method-name">provider_overwrite</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_path" title="details" class="method-name">provider_path</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_range" title="details" class="method-name">provider_range</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_unshift" title="details" class="method-name">provider_unshift</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_binary_search" title="details" class="method-name">test_binary_search</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$needle</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$haystack</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sort</span> = <span class="var-default">FALSE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_callback" title="details" class="method-name">test_callback</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_extract" title="details" class="method-name">test_extract</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$keys</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_flatten" title="details" class="method-name">test_flatten</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$source</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_get" title="details" class="method-name">test_get</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string|integer</span>&nbsp;<span class="var-name">$key</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_is_assoc" title="details" class="method-name">test_is_assoc</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_map" title="details" class="method-name">test_map</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$source</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_merge" title="details" class="method-name">test_merge</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array2</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_overwrite" title="details" class="method-name">test_overwrite</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arr1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arr2</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$arr3</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$arr4</span> = <span class="var-default">array()</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_path" title="details" class="method-name">test_path</a>
+											(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$path</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$delimiter</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_range" title="details" class="method-name">test_range</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$step</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$max</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_unshift" title="details" class="method-name">test_unshift</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$key</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodprovider_binary_search" id="provider_binary_search"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_binary_search</span> (line <span class="line-number">391</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_binary_search</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_binary_search
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_callback" id="provider_callback"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_callback</span> (line <span class="line-number">21</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_callback()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_callback
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_extract" id="provider_extract"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_extract</span> (line <span class="line-number">60</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_extract</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_extract
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_flatten" id="provider_flatten"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_flatten</span> (line <span class="line-number">442</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_flatten</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_flatten
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_get" id="provider_get"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_get</span> (line <span class="line-number">104</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_get()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_get
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_is_assoc" id="provider_is_assoc"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_is_assoc</span> (line <span class="line-number">140</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_is_assoc()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_is_assoc
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_map" id="provider_map"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_map</span> (line <span class="line-number">416</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_map</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_map
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_merge" id="provider_merge"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_merge</span> (line <span class="line-number">164</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_merge
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_overwrite" id="provider_overwrite"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_overwrite</span> (line <span class="line-number">361</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provies test data for test_overwrite</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_overwrite
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_path" id="provider_path"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_path</span> (line <span class="line-number">228</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_get()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_path
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_range" id="provider_range"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_range</span> (line <span class="line-number">287</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_range()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_range
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_unshift" id="provider_unshift"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_unshift</span> (line <span class="line-number">325</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_unshift()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_unshift
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_binary_search" id="test_binary_search"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_binary_search</span> (line <span class="line-number">403</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_binary_search
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$needle</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$haystack</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$sort</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$needle</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$haystack</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$sort</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_callback" id="test_callback"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_callback</span> (line <span class="line-number">47</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::callback()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_callback
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: String to parse</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$expected</span><span class="var-description">: Callback and its parameters</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_extract" id="test_extract"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_extract</span> (line <span class="line-number">90</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::extract()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_extract
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$keys</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$keys</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$default</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_flatten" id="test_flatten"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_flatten</span> (line <span class="line-number">454</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_flatten
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$source</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$source</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_get" id="test_get"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_get</span> (line <span class="line-number">127</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::get()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_get
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string|integer</span>&nbsp;<span class="var-name">$key</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: Array to look in</span>			</li>
+					<li>
+				<span class="var-type">string|integer</span>
+				<span class="var-name">$key</span><span class="var-description">: Key to look for</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$default</span><span class="var-description">: What to return if $key isn't set</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$expected</span><span class="var-description">: The expected value returned</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_is_assoc" id="test_is_assoc"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_is_assoc</span> (line <span class="line-number">156</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::is_assoc()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_is_assoc
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span><span class="var-description">: Array to check</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: Is $array assoc</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_map" id="test_map"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_map</span> (line <span class="line-number">429</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_map
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$method</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$source</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$method</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$source</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_merge" id="test_merge"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_merge</span> (line <span class="line-number">215</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_merge
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array2</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array1</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array2</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_overwrite" id="test_overwrite"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_overwrite</span> (line <span class="line-number">378</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_overwrite
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arr1</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$arr2</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$arr3</span> = <span class="var-default">array()</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$arr4</span> = <span class="var-default">array()</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arr1</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arr2</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arr3</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$arr4</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_path" id="test_path"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_path</span> (line <span class="line-number">274</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::get()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_path
+		</span>
+					(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$path</span>, [<span class="var-type">mixed</span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">NULL</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$delimiter</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$path</span><span class="var-description">: The path to follow</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$default</span><span class="var-description">: The value to return if dnx</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$expected</span><span class="var-description">: The expected value</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$delimiter</span><span class="var-description">: The path delimiter</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$array</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_range" id="test_range"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_range</span> (line <span class="line-number">303</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::range()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_range
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$step</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$max</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$step</span><span class="var-description">: The step between each value in the array</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$max</span><span class="var-description">: The max value of the range (inclusive)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_unshift" id="test_unshift"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_unshift</span> (line <span class="line-number">342</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Arr::unshift()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_unshift
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$array</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$key</span>, <span class="var-type">mixed</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$array</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$key</span>			</li>
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:09 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

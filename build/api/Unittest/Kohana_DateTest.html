@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_DateTest</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_DateTest</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date class</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> BRMatt &lt;<a href="mailto:matthew@sigswitch.com">matthew@sigswitch.com</a>&gt;</li>
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_tests---kohana---DateTest.php.html">/tests/kohana/DateTest.php</a> (line <span class="field">14</span>)
+		</p>
+		
+				
+		<pre>Kohana_Unittest_TestCase
+   |
+   --Kohana_DateTest</pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_adjust" title="details" class="method-name">provider_adjust</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_am_pm" title="details" class="method-name">provider_am_pm</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_days" title="details" class="method-name">provider_days</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_dos2unix" title="details" class="method-name">provider_dos2unix</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_formatted_time" title="details" class="method-name">provider_formatted_time</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_fuzzy_span" title="details" class="method-name">provider_fuzzy_span</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#provider_hours" title="details" class="method-name">provider_hours</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_minutes" title="details" class="method-name">provider_minutes</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_offset" title="details" class="method-name">provider_offset</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_seconds" title="details" class="method-name">provider_seconds</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_span" title="details" class="method-name">provider_span</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_unix2dos" title="details" class="method-name">provider_unix2dos</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#provider_years" title="details" class="method-name">provider_years</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_adjust" title="details" class="method-name">test_adjust</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$hour</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$ampm</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_am_pm" title="details" class="method-name">test_am_pm</a>
+											(<span class="var-type"><type></span>&nbsp;<span class="var-name">$hour</span>, <span class="var-type"><type></span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_days" title="details" class="method-name">test_days</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$month</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$year</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_dos2unix" title="details" class="method-name">test_dos2unix</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_formatted_time" title="details" class="method-name">test_formatted_time</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string|integer</span>&nbsp;<span class="var-name">$datetime_str</span>, [<span class="var-type">string|null</span>&nbsp;<span class="var-name">$timestamp_format</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_fuzzy_span" title="details" class="method-name">test_fuzzy_span</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_hours" title="details" class="method-name">test_hours</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$step</span> = <span class="var-default">1</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$long</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_minutes" title="details" class="method-name">test_minutes</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$step</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_minutes_defaults_to_using_step_of5" title="details" class="method-name">test_minutes_defaults_to_using_step_of5</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_months" title="details" class="method-name">test_months</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_offset" title="details" class="method-name">test_offset</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$remote</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$local</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$now</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_seconds" title="details" class="method-name">test_seconds</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$step</span> = <span class="var-default">1</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$end</span> = <span class="var-default">60</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_span" title="details" class="method-name">test_span</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$time1</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$time2</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$output</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_unix2dos" title="details" class="method-name">test_unix2dos</a>
+											(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#test_years" title="details" class="method-name">test_years</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$end</span> = <span class="var-default">FALSE</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodprovider_adjust" id="provider_adjust"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_adjust</span> (line <span class="line-number">111</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_adjust()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_adjust
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_am_pm" id="provider_am_pm"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_am_pm</span> (line <span class="line-number">53</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_date()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_am_pm
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_days" id="provider_days"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_days</span> (line <span class="line-number">167</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_days()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_days
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_dos2unix" id="provider_dos2unix"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_dos2unix</span> (line <span class="line-number">653</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_dos2unix</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_dos2unix
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_formatted_time" id="provider_formatted_time"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_formatted_time</span> (line <span class="line-number">221</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_formatted_time()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_formatted_time
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_fuzzy_span" id="provider_fuzzy_span"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_fuzzy_span</span> (line <span class="line-number">350</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data to test_fuzzy_span</p>
+<p class="description"><p>This test data is provided on the assumption that it  won't take phpunit more than 30 seconds to get the  data from this provider to the test... ;)</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_fuzzy_span
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_hours" id="provider_hours"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_hours</span> (line <span class="line-number">473</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			provider_hours
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_minutes" id="provider_minutes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_minutes</span> (line <span class="line-number">559</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_minutes</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_minutes
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_offset" id="provider_offset"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_offset</span> (line <span class="line-number">21</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_offset()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_offset
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_seconds" id="provider_seconds"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_seconds</span> (line <span class="line-number">514</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_seconds</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_seconds
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_span" id="provider_span"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_span</span> (line <span class="line-number">274</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_span()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_span
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_unix2dos" id="provider_unix2dos"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_unix2dos</span> (line <span class="line-number">614</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provids for test_unix2dos</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_unix2dos
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodprovider_years" id="provider_years"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">provider_years</span> (line <span class="line-number">436</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Provides test data for test_years()</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Test Data</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			provider_years
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_adjust" id="test_adjust"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_adjust</span> (line <span class="line-number">154</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::ampm()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_adjust
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$hour</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$ampm</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$hour</span><span class="var-description">: Hour in 12 hour format</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$ampm</span><span class="var-description">: Either am or pm</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected result</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_am_pm" id="test_am_pm"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_am_pm</span> (line <span class="line-number">98</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::ampm()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_am_pm
+		</span>
+					(<span class="var-type"><type></span>&nbsp;<span class="var-name">$hour</span>, <span class="var-type"><type></span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><type></span>
+				<span class="var-name">$hour</span>			</li>
+					<li>
+				<span class="var-type"><type></span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_days" id="test_days"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_days</span> (line <span class="line-number">198</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::days()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_days
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$month</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$year</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$month</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$year</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$expected</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_dos2unix" id="test_dos2unix"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_dos2unix</span> (line <span class="line-number">675</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::dos2unix</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_dos2unix
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected output</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$timestamp</span><span class="var-description">: Input timestamp</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_formatted_time" id="test_formatted_time"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_formatted_time</span> (line <span class="line-number">243</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::formatted_time()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_formatted_time
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string|integer</span>&nbsp;<span class="var-name">$datetime_str</span>, [<span class="var-type">string|null</span>&nbsp;<span class="var-name">$timestamp_format</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected output</span>			</li>
+					<li>
+				<span class="var-type">string|integer</span>
+				<span class="var-name">$datetime_str</span><span class="var-description">: The datetime timestamp / string</span>			</li>
+					<li>
+				<span class="var-type">string|null</span>
+				<span class="var-name">$timestamp_format</span><span class="var-description">: The output format</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_fuzzy_span" id="test_fuzzy_span"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_fuzzy_span</span> (line <span class="line-number">423</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test of Date::fuzy_span()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_fuzzy_span
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected output</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$timestamp</span><span class="var-description">: Timestamp to use</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_hours" id="test_hours"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_hours</span> (line <span class="line-number">501</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test for Date::hours</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_hours
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$step</span> = <span class="var-default">1</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$long</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$step</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$long</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$start</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_minutes" id="test_minutes"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_minutes</span> (line <span class="line-number">579</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_minutes
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$step</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$step</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_minutes_defaults_to_using_step_of5" id="test_minutes_defaults_to_using_step_of5"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_minutes_defaults_to_using_step_of5</span> (line <span class="line-number">594</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">This tests that the minutes helper defaults to using a $step of 5  and thus returns an array of 5 minute itervals</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_minutes_defaults_to_using_step_of5
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_months" id="test_months"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_months</span> (line <span class="line-number">256</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::months()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_months
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtest_offset" id="test_offset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_offset</span> (line <span class="line-number">43</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::offset()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_offset
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$remote</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$local</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$now</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected offset</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$remote</span><span class="var-description">: Remote TZ</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$local</span><span class="var-description">: Local TZ</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$now</span><span class="var-description">: Current timestamp</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_seconds" id="test_seconds"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_seconds</span> (line <span class="line-number">546</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_seconds
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$step</span> = <span class="var-default">1</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">0</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$end</span> = <span class="var-default">60</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$step</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$start</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$end</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_span" id="test_span"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_span</span> (line <span class="line-number">333</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Date::span()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_span
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$time1</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$time2</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$output</span>, <span class="var-type">array</span>&nbsp;<span class="var-name">$expected</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$time1</span><span class="var-description">: Time in the past</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$time2</span><span class="var-description">: Time to compare against</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$output</span><span class="var-description">: Units to output</span>			</li>
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$expected</span><span class="var-description">: Array of $outputs =&gt; values</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_unix2dos" id="test_unix2dos"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_unix2dos</span> (line <span class="line-number">643</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Test Date::unix2dos()</p>
+<p class="description"><p>You should always pass a timestamp as otherwise the current  date/time would be used and that's oviously variable</p><p>Geert seems to be the only person who knows how unix2dos() works  so we just throw in some random values and see what happens</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_unix2dos
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$expected</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$timestamp</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$expected</span><span class="var-description">: Expected output</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$timestamp</span><span class="var-description">: Input timestamp</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtest_years" id="test_years"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">test_years</span> (line <span class="line-number">465</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests Data::years()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			test_years
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$expected</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$start</span> = <span class="var-default">FALSE</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$end</span> = <span class="var-default">FALSE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$expected</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$start</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$end</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:12 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

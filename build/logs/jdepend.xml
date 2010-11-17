@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="+global">
+      <Stats>
+        <TotalClasses>37</TotalClasses>
+        <ConcreteClasses>32</ConcreteClasses>
+        <AbstractClasses>5</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>1</Ce>
+        <A>0.13513513513514</A>
+        <I>0.33333333333333</I>
+        <D>0.53153153153153</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/arr.php">Arr</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/cli.php">CLI</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/cookie.php">Cookie</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/date.php">Date</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/encrypt.php">Encrypt</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/feed.php">Feed</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/file.php">File</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/form.php">Form</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/fragment.php">Fragment</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/html.php">HTML</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/i18n.php">I18n</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/inflector.php">Inflector</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana.php">Kohana</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/num.php">Num</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/profiler.php">Profiler</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/remote.php">Remote</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/request.php">Request</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/route.php">Route</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/security.php">Security</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/session/cookie.php">Session_Cookie</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/session/native.php">Session_Native</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/text.php">Text</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/upload.php">Upload</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/url.php">URL</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/utf8.php">UTF8</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/validate.php">Validate</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/validate/exception.php">Validate_Exception</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/view.php">View</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/ModelTest.php">Model_Foobar</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/RequestTest.php">Controller_Foo</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/SecurityTest.php">Kohana_SecurityTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php">Kohana_TextTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/controller.php">Controller</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/controller/rest.php">Controller_REST</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/controller/template.php">Controller_Template</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/model.php">Model</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/session.php">Session</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>Kohana</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Kohana</Package>
+        <Package>Unittest</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Kohana">
+      <Stats>
+        <TotalClasses>43</TotalClasses>
+        <ConcreteClasses>36</ConcreteClasses>
+        <AbstractClasses>7</AbstractClasses>
+        <Ca>2</Ca>
+        <Ce>6</Ce>
+        <A>0.16279069767442</A>
+        <I>0.75</I>
+        <D>0.087209302325581</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/arr.php">Kohana_Arr</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/cli.php">Kohana_CLI</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/config.php">Kohana_Config</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/config/file.php">Kohana_Config_File</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/cookie.php">Kohana_Cookie</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/core.php">Kohana_Core</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/date.php">Kohana_Date</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/encrypt.php">Kohana_Encrypt</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/exception.php">Kohana_Exception</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/feed.php">Kohana_Feed</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/file.php">Kohana_File</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/form.php">Kohana_Form</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/fragment.php">Kohana_Fragment</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/html.php">Kohana_HTML</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/i18n.php">Kohana_I18n</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/inflector.php">Kohana_Inflector</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/log.php">Kohana_Log</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/log/file.php">Kohana_Log_File</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/log/syslog.php">Kohana_Log_Syslog</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/num.php">Kohana_Num</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/profiler.php">Kohana_Profiler</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/remote.php">Kohana_Remote</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/request.php">Kohana_Request</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/request/exception.php">Kohana_Request_Exception</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/route.php">Kohana_Route</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/security.php">Kohana_Security</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/session/cookie.php">Kohana_Session_Cookie</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/session/native.php">Kohana_Session_Native</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/text.php">Kohana_Text</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/upload.php">Kohana_Upload</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/url.php">Kohana_URL</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/utf8.php">Kohana_UTF8</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/validate.php">Kohana_Validate</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/validate/exception.php">Kohana_Validate_Exception</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/view.php">Kohana_View</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/view/exception.php">Kohana_View_Exception</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/config/reader.php">Kohana_Config_Reader</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/controller.php">Kohana_Controller</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/controller/rest.php">Kohana_Controller_REST</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/controller/template.php">Kohana_Controller_Template</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/log/writer.php">Kohana_Log_Writer</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/model.php">Kohana_Model</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/classes/kohana/session.php">Kohana_Session</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+date</Package>
+        <Package>+fileinfo</Package>
+        <Package>+global</Package>
+        <Package>+reflection</Package>
+        <Package>+spl</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>+global</Package>
+        <Package>Unittest</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Unittest">
+      <Stats>
+        <TotalClasses>23</TotalClasses>
+        <ConcreteClasses>23</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/ArrTest.php">Kohana_ArrTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php">Kohana_CLITest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php">Kohana_ConfigTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/CookieTest.php">Kohana_CookieTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php">Kohana_CoreTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php">Kohana_DateTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/FeedTest.php">Kohana_FeedTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/FileTest.php">Kohana_FileTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/FormTest.php">Kohana_FormTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/HTMLTest.php">Kohana_HTMLTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/I18nTest.php">Kohana_I18nTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/InflectorTest.php">Kohana_InflectorTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php">Kohana_LogTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/ModelTest.php">Kohana_ModelTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/NumTest.php">Kohana_NumTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/RemoteTest.php">Kohana_RemoteTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/RequestTest.php">Kohana_RequestTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php">Kohana_RouteTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php">Kohana_SessionTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/URLTest.php">Kohana_URLTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/UTF8Test.php">Kohana_UTF8Test</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/UploadTest.php">Kohana_UploadTest</Class>
+        <Class sourceFile="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php">Kohana_ValidateTest</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+global</Package>
+        <Package>+reflection</Package>
+        <Package>+spl</Package>
+        <Package>Kohana</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles>
+    <Package Name="+global">
+      <Package>+global</Package>
+      <Package>Kohana</Package>
+    </Package>
+    <Package Name="Kohana">
+      <Package>Kohana</Package>
+      <Package>+global</Package>
+    </Package>
+    <Package Name="Unittest">
+      <Package>+global</Package>
+      <Package>Kohana</Package>
+    </Package>
+  </Cycles>
+</PDepend>

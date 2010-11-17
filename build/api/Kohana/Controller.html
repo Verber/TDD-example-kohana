@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Controller</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Controller</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-methods">Methods</a>
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Abstract controller class. Controllers should only be created using a [Request].</p>
+<p class="description"><p>Controllers methods will be automatically called in the following order by  the request:</p><p>$controller = new Controller_Foo($request);      $controller-&gt;before();      $controller-&gt;action_bar();      $controller-&gt;after();</p><p>The controller action should add the output it creates to  `$this-&gt;request-&gt;response`, typically in the form of a [View], during the  &quot;action&quot; part of execution.</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2008-2009 Kohana Team</li>
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---controller.php.html">/classes/controller.php</a> (line <span class="field">3</span>)
+		</p>
+		
+				
+		<pre><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a>
+   |
+   --Controller</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-vars">Vars</a>
+								|															<a href="#sec-methods">Methods</a>
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../Kohana/Kohana_Controller_REST.html">Kohana_Controller_REST</a></td>
+					<td>
+											Abstract Controller class for RESTful controller mapping. Supports GET, PUT,  POST, and DELETE. By default, these methods will be mapped to these actions:
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../Kohana/Kohana_Controller_Template.html">Kohana_Controller_Template</a></td>
+					<td>
+											Abstract controller class for automatic templating.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../Unittest/Controller_Foo.html">Controller_Foo</a></td>
+					<td>
+											Abstract controller class. Controllers should only be created using a [Request].
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<span class="disabled">Vars</span>
+						
+			
+										| 
+									<a href="#sec-methods">Methods</a>
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Controller.html#var$request">Kohana_Controller::$request</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-vars">Vars</a>
+																	<span class="disabled">Methods</span>
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#method__construct">Kohana_Controller::__construct()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#methodafter">Kohana_Controller::after()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#methodbefore">Kohana_Controller::before()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:10 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

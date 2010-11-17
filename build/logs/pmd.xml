@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="0.2.7" timestamp="2010-11-17T20:25:12+02:00">
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/arr.php">
+    <violation beginline="11" endline="470" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Arr" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="11" endline="470" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Arr" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="57" endline="142" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Arr" method="path" priority="3">
+      The method path() has a Cyclomatic Complexity of 12.
+    </violation>
+    <violation beginline="222" endline="222" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$sort'.
+    </violation>
+    <violation beginline="296" endline="296" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$a1'.
+    </violation>
+    <violation beginline="296" endline="296" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$a2'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/core.php">
+    <violation beginline="16" endline="1560" rule="ExcessiveClassLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasslength" class="Kohana_Core" priority="3">
+      Avoid really long classes.
+    </violation>
+    <violation beginline="16" endline="1560" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Core" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="16" endline="1560" rule="TooManyFields" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanyfields" class="Kohana_Core" priority="3">
+      Too many fields
+    </violation>
+    <violation beginline="16" endline="1560" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Core" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="16" endline="1560" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_Core" priority="3">
+      This class Kohana_Core has an overall complexity of 179 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="184" endline="342" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="init" priority="3">
+      The method init() has a Cyclomatic Complexity of 20.
+    </violation>
+    <violation beginline="184" endline="342" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Core" method="init" priority="3">
+      The method init() has an NPath complexity of 196608.
+    </violation>
+    <violation beginline="184" endline="342" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Core" method="init" priority="3">
+      Avoid really long methods.
+    </violation>
+    <violation beginline="265" endline="265" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$e'.
+    </violation>
+    <violation beginline="589" endline="673" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="find_file" priority="3">
+      The method find_file() has a Cyclomatic Complexity of 17.
+    </violation>
+    <violation beginline="589" endline="673" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Core" method="find_file" priority="3">
+      The method find_file() has an NPath complexity of 972.
+    </violation>
+    <violation beginline="684" endline="754" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="list_files" priority="3">
+      The method list_files() has a Cyclomatic Complexity of 12.
+    </violation>
+    <violation beginline="964" endline="1052" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="exception_handler" priority="3">
+      The method exception_handler() has a Cyclomatic Complexity of 11.
+    </violation>
+    <violation beginline="969" endline="969" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$type'.
+    </violation>
+    <violation beginline="971" endline="971" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$message'.
+    </violation>
+    <violation beginline="972" endline="972" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$file'.
+    </violation>
+    <violation beginline="973" endline="973" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$line'.
+    </violation>
+    <violation beginline="1159" endline="1331" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="_dump" priority="3">
+      The method _dump() has a Cyclomatic Complexity of 28.
+    </violation>
+    <violation beginline="1159" endline="1331" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Core" method="_dump" priority="3">
+      Avoid really long methods.
+    </violation>
+    <violation beginline="1442" endline="1558" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Core" method="trace" priority="3">
+      The method trace() has a Cyclomatic Complexity of 22.
+    </violation>
+    <violation beginline="1442" endline="1558" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Core" method="trace" priority="3">
+      The method trace() has an NPath complexity of 22034.
+    </violation>
+    <violation beginline="1442" endline="1558" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Core" method="trace" priority="3">
+      Avoid really long methods.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/date.php">
+    <violation beginline="11" endline="557" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Date" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="11" endline="557" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Date" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="11" endline="557" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_Date" priority="3">
+      This class Kohana_Date has an overall complexity of 67 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="300" endline="373" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Date" method="span" priority="3">
+      The method span() has a Cyclomatic Complexity of 11.
+    </violation>
+    <violation beginline="300" endline="373" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Date" method="span" priority="3">
+      The method span() has an NPath complexity of 1024.
+    </violation>
+    <violation beginline="387" endline="483" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Date" method="fuzzy_span" priority="3">
+      The method fuzzy_span() has a Cyclomatic Complexity of 21.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/feed.php">
+    <violation beginline="20" endline="68" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Feed" method="parse" priority="3">
+      The method parse() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="20" endline="68" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Feed" method="parse" priority="3">
+      The method parse() has an NPath complexity of 700.
+    </violation>
+    <violation beginline="79" endline="174" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Feed" method="create" priority="3">
+      The method create() has a Cyclomatic Complexity of 22.
+    </violation>
+    <violation beginline="79" endline="174" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Feed" method="create" priority="3">
+      The method create() has an NPath complexity of 306.
+    </violation>
+    <violation beginline="79" endline="79" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$format'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/form.php">
+    <violation beginline="14" endline="434" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Form" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="252" endline="341" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Form" method="select" priority="3">
+      The method select() has a Cyclomatic Complexity of 10.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/html.php">
+    <violation beginline="12" endline="367" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_HTML" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/inflector.php">
+    <violation beginline="70" endline="123" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Inflector" method="singular" priority="3">
+      The method singular() has a Cyclomatic Complexity of 13.
+    </violation>
+    <violation beginline="70" endline="123" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Inflector" method="singular" priority="3">
+      The method singular() has an NPath complexity of 640.
+    </violation>
+    <violation beginline="144" endline="191" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Inflector" method="plural" priority="3">
+      The method plural() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="144" endline="191" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Inflector" method="plural" priority="3">
+      The method plural() has an NPath complexity of 400.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/profiler.php">
+    <violation beginline="118" endline="179" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Profiler" method="stats" priority="3">
+      The method stats() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="191" endline="265" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Profiler" method="group_stats" priority="3">
+      The method group_stats() has a Cyclomatic Complexity of 14.
+    </violation>
+    <violation beginline="191" endline="265" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Profiler" method="group_stats" priority="3">
+      The method group_stats() has an NPath complexity of 1245.
+    </violation>
+    <violation beginline="306" endline="373" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Profiler" method="application" priority="3">
+      The method application() has a Cyclomatic Complexity of 11.
+    </violation>
+    <violation beginline="306" endline="373" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Profiler" method="application" priority="3">
+      The method application() has an NPath complexity of 243.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/remote.php">
+    <violation beginline="113" endline="113" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$errno'.
+    </violation>
+    <violation beginline="113" endline="113" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$errstr'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/request.php">
+    <violation beginline="12" endline="1221" rule="ExcessiveClassLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasslength" class="Kohana_Request" priority="3">
+      Avoid really long classes.
+    </violation>
+    <violation beginline="12" endline="1221" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Request" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="12" endline="1221" rule="TooManyFields" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanyfields" class="Kohana_Request" priority="3">
+      Too many fields
+    </violation>
+    <violation beginline="12" endline="1221" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Request" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="12" endline="1221" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_Request" priority="3">
+      This class Kohana_Request has an overall complexity of 116 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="124" endline="237" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Request" method="instance" priority="3">
+      The method instance() has a Cyclomatic Complexity of 20.
+    </violation>
+    <violation beginline="124" endline="237" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Request" method="instance" priority="3">
+      The method instance() has an NPath complexity of 1745.
+    </violation>
+    <violation beginline="124" endline="237" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Request" method="instance" priority="3">
+      Avoid really long methods.
+    </violation>
+    <violation beginline="350" endline="416" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Request" method="user_agent" priority="3">
+      The method user_agent() has a Cyclomatic Complexity of 11.
+    </violation>
+    <violation beginline="631" endline="631" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$name'.
+    </violation>
+    <violation beginline="874" endline="1037" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Request" method="send_file" priority="3">
+      The method send_file() has a Cyclomatic Complexity of 19.
+    </violation>
+    <violation beginline="874" endline="1037" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Request" method="send_file" priority="3">
+      The method send_file() has an NPath complexity of 38400.
+    </violation>
+    <violation beginline="874" endline="1037" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Request" method="send_file" priority="3">
+      Avoid really long methods.
+    </violation>
+    <violation beginline="1059" endline="1153" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Request" method="execute" priority="3">
+      The method execute() has a Cyclomatic Complexity of 11.
+    </violation>
+    <violation beginline="1059" endline="1153" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Request" method="execute" priority="3">
+      The method execute() has an NPath complexity of 224.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/session.php">
+    <violation beginline="11" endline="415" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Session" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="303" endline="303" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$e'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/session/cookie.php">
+    <violation beginline="13" endline="13" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$id'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/text.php">
+    <violation beginline="11" endline="590" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Text" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="11" endline="590" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Text" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="11" endline="590" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_Text" priority="3">
+      This class Kohana_Text has an overall complexity of 67 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="90" endline="111" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Text" method="limit_chars" priority="3">
+      The method limit_chars() has an NPath complexity of 600.
+    </violation>
+    <violation beginline="168" endline="233" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Text" method="random" priority="3">
+      The method random() has a Cyclomatic Complexity of 14.
+    </violation>
+    <violation beginline="168" endline="233" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Text" method="random" priority="3">
+      The method random() has an NPath complexity of 700.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/upload.php">
+    <violation beginline="52" endline="100" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Upload" method="save" priority="3">
+      The method save() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="52" endline="100" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Upload" method="save" priority="3">
+      The method save() has an NPath complexity of 216.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/utf8.php">
+    <violation beginline="26" endline="755" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_UTF8" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="26" endline="755" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_UTF8" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="26" endline="755" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_UTF8" priority="3">
+      This class Kohana_UTF8 has an overall complexity of 66 which is very high. The configured complexity threshold is 50.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/validate.php">
+    <violation beginline="11" endline="1161" rule="ExcessiveClassLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasslength" class="Kohana_Validate" priority="3">
+      Avoid really long classes.
+    </violation>
+    <violation beginline="11" endline="1161" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_Validate" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="11" endline="1161" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_Validate" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="11" endline="1161" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_Validate" priority="3">
+      This class Kohana_Validate has an overall complexity of 125 which is very high. The configured complexity threshold is 50.
+    </violation>
+    <violation beginline="228" endline="275" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Validate" method="credit_card" priority="3">
+      The method credit_card() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="750" endline="1003" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Validate" method="check" priority="3">
+      The method check() has a Cyclomatic Complexity of 32.
+    </violation>
+    <violation beginline="750" endline="1003" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Validate" method="check" priority="3">
+      The method check() has an NPath complexity of 2676960.
+    </violation>
+    <violation beginline="750" endline="1003" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Validate" method="check" priority="3">
+      Avoid really long methods.
+    </violation>
+    <violation beginline="1038" endline="1147" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" class="Kohana_Validate" method="errors" priority="3">
+      The method errors() has a Cyclomatic Complexity of 16.
+    </violation>
+    <violation beginline="1038" endline="1147" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" class="Kohana_Validate" method="errors" priority="3">
+      The method errors() has an NPath complexity of 962.
+    </violation>
+    <violation beginline="1038" endline="1147" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" class="Kohana_Validate" method="errors" priority="3">
+      Avoid really long methods.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/classes/kohana/view.php">
+    <violation beginline="13" endline="346" rule="TooManyMethods" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_View" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/ArrTest.php">
+    <violation beginline="14" endline="461" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_ArrTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php">
+    <violation beginline="17" endline="462" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_CoreTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php">
+    <violation beginline="14" endline="679" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_DateTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/FormTest.php">
+    <violation beginline="15" endline="372" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_FormTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="298" endline="298" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$expected'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/HTMLTest.php">
+    <violation beginline="14" endline="227" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_HTMLTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="186" endline="186" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$options'.
+    </violation>
+    <violation beginline="220" endline="220" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$options'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/RemoteTest.php">
+    <violation beginline="39" endline="39" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$input'.
+    </violation>
+    <violation beginline="39" endline="39" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$expected'.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php">
+    <violation beginline="14" endline="416" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_RouteTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php">
+    <violation beginline="14" endline="497" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_SessionTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php">
+    <violation beginline="8" endline="572" rule="TooManyMethods" ruleset="Code Size Rules" package="+global" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_TextTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/UTF8Test.php">
+    <violation beginline="13" endline="156" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_UTF8Test" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php">
+    <violation beginline="15" endline="1274" rule="ExcessiveClassLength" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasslength" class="Kohana_ValidateTest" priority="3">
+      Avoid really long classes.
+    </violation>
+    <violation beginline="15" endline="1274" rule="ExcessivePublicCount" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivepubliccount" class="Kohana_ValidateTest" priority="3">
+      This class has a bunch of public methods and attributes
+    </violation>
+    <violation beginline="15" endline="1274" rule="TooManyMethods" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#toomanymethods" class="Kohana_ValidateTest" priority="3">
+      This class has too many methods, consider refactoring it.
+    </violation>
+    <violation beginline="15" endline="1274" rule="ExcessiveClassComplexity" ruleset="Code Size Rules" package="Unittest" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessiveclasscomplexity" class="Kohana_ValidateTest" priority="3">
+      This class Kohana_ValidateTest has an overall complexity of 70 which is very high. The configured complexity threshold is 50.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/from_unicode.php">
+    <violation beginline="11" endline="68" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_from_unicode" priority="3">
+      The function _from_unicode() has a Cyclomatic Complexity of 10.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/ord.php">
+    <violation beginline="11" endline="76" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_ord" priority="3">
+      The function _ord() has a Cyclomatic Complexity of 20.
+    </violation>
+    <violation beginline="11" endline="76" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" function="_ord" priority="3">
+      The function _ord() has an NPath complexity of 69984.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/str_ireplace.php">
+    <violation beginline="11" endline="70" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_str_ireplace" priority="3">
+      The function _str_ireplace() has a Cyclomatic Complexity of 11.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/strcspn.php">
+    <violation beginline="11" endline="30" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_strcspn" priority="3">
+      The function _strcspn() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="11" endline="30" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" function="_strcspn" priority="3">
+      The function _strcspn() has an NPath complexity of 495.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/strspn.php">
+    <violation beginline="11" endline="30" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_strspn" priority="3">
+      The function _strspn() has a Cyclomatic Complexity of 10.
+    </violation>
+    <violation beginline="11" endline="30" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" function="_strspn" priority="3">
+      The function _strspn() has an NPath complexity of 495.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/substr.php">
+    <violation beginline="11" endline="72" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_substr" priority="3">
+      The function _substr() has a Cyclomatic Complexity of 19.
+    </violation>
+    <violation beginline="11" endline="72" rule="NPathComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#npathcomplexity" function="_substr" priority="3">
+      The function _substr() has an NPath complexity of 858000.
+    </violation>
+  </file>
+  <file name="/home/verber/workspace/kohana-test-project/system/utf8/to_unicode.php">
+    <violation beginline="11" endline="141" rule="CyclomaticComplexity" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#cyclomaticcomplexity" function="_to_unicode" priority="3">
+      The function _to_unicode() has a Cyclomatic Complexity of 21.
+    </violation>
+    <violation beginline="11" endline="141" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="Kohana" externalInfoUrl="http://phpmd.org/rules/codesize.html#excessivemethodlength" function="_to_unicode" priority="3">
+      Avoid really long methods.
+    </violation>
+  </file>
+</pmd>

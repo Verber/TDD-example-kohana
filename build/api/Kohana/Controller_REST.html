@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Controller_REST</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Controller_REST</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-methods">Methods</a>
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Abstract Controller class for RESTful controller mapping. Supports GET, PUT,  POST, and DELETE. By default, these methods will be mapped to these actions:</p>
+<p class="description"><p>GET  :  Mapped to the &quot;index&quot; action, lists all objects</p><p>POST  :  Mapped to the &quot;create&quot; action, creates a new object</p><p>PUT  :  Mapped to the &quot;update&quot; action, update an existing object</p><p>DELETE  :  Mapped to the &quot;delete&quot; action, delete an existing object</p><p>Additional methods can be supported by adding the method and action to  the `$_action_map` property.</p><p>[!!] Using this class within a website will require heavy modification,  due to most web browsers only supporting the GET and POST methods.  Generally, this class should only be used for web services and APIs.</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2009 Kohana Team</li>
+				<li><span class="field">abstract:</span> </li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---controller---rest.php.html">/classes/controller/rest.php</a> (line <span class="field">3</span>)
+		</p>
+		
+				
+		<pre><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a>
+   |
+   --<a href="../Kohana/Controller.html">Controller</a>
+      |
+      --<a href="../Kohana/Kohana_Controller_REST.html">Kohana_Controller_REST</a>
+         |
+         --Controller_REST</pre>
+	
+			</div>
+</div>
+
+
+
+
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<span class="disabled">Vars</span>
+						
+			
+										| 
+									<a href="#sec-methods">Methods</a>
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../Kohana/Kohana_Controller_REST.html">Kohana_Controller_REST</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Controller_REST.html#var$_action_map">Kohana_Controller_REST::$_action_map</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Controller_REST.html#var$_action_requested">Kohana_Controller_REST::$_action_requested</a></span><br>
+							</span>
+											</blockquote> 
+									<p>Inherited from <span class="classname"><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../Kohana/Kohana_Controller.html#var$request">Kohana_Controller::$request</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-vars">Vars</a>
+																	<span class="disabled">Methods</span>
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Kohana/Kohana_Controller_REST.html">Kohana_Controller_REST</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller_REST.html#methodaction_invalid">Kohana_Controller_REST::action_invalid()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller_REST.html#methodbefore">Kohana_Controller_REST::before()</a></span><br>
+											</blockquote>
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Kohana/Kohana_Controller.html">Kohana_Controller</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#method__construct">Kohana_Controller::__construct()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#methodafter">Kohana_Controller::after()</a></span><br>
+													<span class="method-name"><a href="../Kohana/Kohana_Controller.html#methodbefore">Kohana_Controller::before()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:17 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

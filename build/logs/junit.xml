@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Kohana Tests" tests="707" assertions="2187" failures="19" errors="0" time="13.894693">
+    <testsuite name="" tests="707" assertions="2187" failures="19" errors="0" time="13.894693">
+      <testsuite name="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" tests="5" assertions="13" failures="0" errors="0" time="4.058825">
+        <testcase name="testInstance" class="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" line="24" assertions="5" time="0.017155"/>
+        <testcase name="testGet" class="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" line="46" assertions="3" time="0.009085"/>
+        <testcase name="testSet" class="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" line="58" assertions="5" time="4.020994"/>
+        <testcase name="testDelete" class="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" line="82" assertions="0" time="0.005812"/>
+        <testcase name="testDeleteAll" class="KohanaCacheTest" file="/home/verber/workspace/kohana-test-project/modules/cache/tests/cache/KohanaCacheTest.php" line="87" assertions="0" time="0.005779"/>
+      </testsuite>
+      <testsuite name="Kohana_ArrTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ArrTest.php" fullPackage="Unittest" package="Unittest" tests="44" assertions="467" failures="0" errors="0" time="0.376220">
+        <testsuite name="Kohana_ArrTest::test_callback" tests="5" assertions="10" failures="0" errors="0" time="0.027478">
+          <testcase name="test_callback with data set #0" assertions="2" time="0.005896"/>
+          <testcase name="test_callback with data set #1" assertions="2" time="0.005445"/>
+          <testcase name="test_callback with data set #2" assertions="2" time="0.005465"/>
+          <testcase name="test_callback with data set #3" assertions="2" time="0.005345"/>
+          <testcase name="test_callback with data set #4" assertions="2" time="0.005327"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_extract" tests="2" assertions="4" failures="0" errors="0" time="0.010349">
+          <testcase name="test_extract with data set #0" assertions="2" time="0.005152"/>
+          <testcase name="test_extract with data set #1" assertions="2" time="0.005197"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_get" tests="6" assertions="6" failures="0" errors="0" time="0.030398">
+          <testcase name="test_get with data set #0" assertions="1" time="0.005810"/>
+          <testcase name="test_get with data set #1" assertions="1" time="0.004995"/>
+          <testcase name="test_get with data set #2" assertions="1" time="0.004775"/>
+          <testcase name="test_get with data set #3" assertions="1" time="0.004880"/>
+          <testcase name="test_get with data set #4" assertions="1" time="0.004946"/>
+          <testcase name="test_get with data set #5" assertions="1" time="0.004992"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_is_assoc" tests="2" assertions="2" failures="0" errors="0" time="0.010269">
+          <testcase name="test_is_assoc with data set #0" assertions="1" time="0.005305"/>
+          <testcase name="test_is_assoc with data set #1" assertions="1" time="0.004964"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_merge" tests="7" assertions="7" failures="0" errors="0" time="0.036841">
+          <testcase name="test_merge with data set #0" assertions="1" time="0.005257"/>
+          <testcase name="test_merge with data set #1" assertions="1" time="0.005523"/>
+          <testcase name="test_merge with data set #2" assertions="1" time="0.005319"/>
+          <testcase name="test_merge with data set #3" assertions="1" time="0.005084"/>
+          <testcase name="test_merge with data set #4" assertions="1" time="0.005475"/>
+          <testcase name="test_merge with data set #5" assertions="1" time="0.005013"/>
+          <testcase name="test_merge with data set #6" assertions="1" time="0.005170"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_path" tests="12" assertions="12" failures="0" errors="0" time="0.063111">
+          <testcase name="test_path with data set #0" assertions="1" time="0.005003"/>
+          <testcase name="test_path with data set #1" assertions="1" time="0.004836"/>
+          <testcase name="test_path with data set #2" assertions="1" time="0.005654"/>
+          <testcase name="test_path with data set #3" assertions="1" time="0.004890"/>
+          <testcase name="test_path with data set #4" assertions="1" time="0.005734"/>
+          <testcase name="test_path with data set #5" assertions="1" time="0.005111"/>
+          <testcase name="test_path with data set #6" assertions="1" time="0.005181"/>
+          <testcase name="test_path with data set #7" assertions="1" time="0.005458"/>
+          <testcase name="test_path with data set #8" assertions="1" time="0.004978"/>
+          <testcase name="test_path with data set #9" assertions="1" time="0.005015"/>
+          <testcase name="test_path with data set #10" assertions="1" time="0.005881"/>
+          <testcase name="test_path with data set #11" assertions="1" time="0.005370"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_range" tests="3" assertions="411" failures="0" errors="0" time="0.156736">
+          <testcase name="test_range with data set #0" assertions="9" time="0.009688"/>
+          <testcase name="test_range with data set #1" assertions="401" time="0.142065"/>
+          <testcase name="test_range with data set #2" assertions="1" time="0.004983"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_unshift" tests="2" assertions="10" failures="0" errors="0" time="0.013343">
+          <testcase name="test_unshift with data set #0" assertions="5" time="0.007154"/>
+          <testcase name="test_unshift with data set #1" assertions="5" time="0.006189"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_overwrite" tests="1" assertions="1" failures="0" errors="0" time="0.005151">
+          <testcase name="test_overwrite with data set #0" assertions="1" time="0.005151"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_binary_search" tests="1" assertions="1" failures="0" errors="0" time="0.004839">
+          <testcase name="test_binary_search with data set #0" assertions="1" time="0.004839"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_map" tests="2" assertions="2" failures="0" errors="0" time="0.010911">
+          <testcase name="test_map with data set #0" assertions="1" time="0.005670"/>
+          <testcase name="test_map with data set #1" assertions="1" time="0.005241"/>
+        </testsuite>
+        <testsuite name="Kohana_ArrTest::test_flatten" tests="1" assertions="1" failures="0" errors="0" time="0.006795">
+          <testcase name="test_flatten with data set #0" assertions="1" time="0.006795"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" fullPackage="Unittest" package="Unittest" tests="7" assertions="17" failures="0" errors="0" time="0.043205">
+        <testcase name="test_only_loops_over_available_arguments" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="74" assertions="1" time="0.007112"/>
+        <testcase name="test_only_parses_wanted_arguments" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="88" assertions="3" time="0.005970"/>
+        <testcase name="test_does_not_parse_invalid_arguments" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="103" assertions="3" time="0.006365"/>
+        <testcase name="test_parses_multiple_arguments" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="117" assertions="5" time="0.006573"/>
+        <testcase name="test_parses_arguments_without_value_as_null" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="133" assertions="2" time="0.005853"/>
+        <testcase name="test_cli_only_splits_on_the_first_equals" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="147" assertions="2" time="0.005766"/>
+        <testcase name="test_value_includes_spaces_when_enclosed_with_quotes" class="Kohana_CLITest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CLITest.php" line="161" assertions="1" time="0.005566"/>
+      </testsuite>
+      <testsuite name="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" fullPackage="Unittest" package="Unittest" tests="10" assertions="39" failures="0" errors="0" time="0.127376">
+        <testcase name="test_instance_returns_singleton_instance" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="25" assertions="2" time="0.005317"/>
+        <testcase name="test_initially_there_are_no_readers" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="38" assertions="2" time="0.006788"/>
+        <testcase name="test_attach_adds_reader_and_returns_this" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="52" assertions="4" time="0.027471"/>
+        <testcase name="test_attach_adds_reader_to_front_of_queue" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="69" assertions="6" time="0.007904"/>
+        <testcase name="test_attach_can_add_reader_to_end_of_queue" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="99" assertions="4" time="0.007299"/>
+        <testcase name="test_detach_removes_reader_and_returns_this" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="117" assertions="10" time="0.029003"/>
+        <testcase name="test_detach_returns_this_even_when_reader_dnx" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="147" assertions="2" time="0.005647"/>
+        <testcase name="test_load_throws_exception_if_there_are_no_readers" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="163" assertions="1" time="0.004865"/>
+        <testcase name="test_load_interrogates_each_reader_until_group_found" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="179" assertions="4" time="0.018725"/>
+        <testcase name="test_load_returns_new_config_group_if_one_dnx" class="Kohana_ConfigTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ConfigTest.php" line="217" assertions="4" time="0.014357"/>
+      </testsuite>
+      <testsuite name="Kohana_CookieTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CookieTest.php" fullPackage="Unittest" package="Unittest" tests="7" assertions="7" failures="0" errors="0" time="0.036141">
+        <testsuite name="Kohana_CookieTest::test_set" tests="2" assertions="2" failures="0" errors="0" time="0.010655">
+          <testcase name="test_set with data set #0" assertions="1" time="0.005433"/>
+          <testcase name="test_set with data set #1" assertions="1" time="0.005222"/>
+        </testsuite>
+        <testsuite name="Kohana_CookieTest::test_get" tests="3" assertions="3" failures="0" errors="0" time="0.015220">
+          <testcase name="test_get with data set #0" assertions="1" time="0.004967"/>
+          <testcase name="test_get with data set #1" assertions="1" time="0.005405"/>
+          <testcase name="test_get with data set #2" assertions="1" time="0.004848"/>
+        </testsuite>
+        <testsuite name="Kohana_CookieTest::test_delete" tests="1" assertions="1" failures="0" errors="0" time="0.005265">
+          <testcase name="test_delete with data set #0" assertions="1" time="0.005265"/>
+        </testsuite>
+        <testsuite name="Kohana_CookieTest::test_salt" tests="1" assertions="1" failures="0" errors="0" time="0.005001">
+          <testcase name="test_salt with data set #0" assertions="1" time="0.005001"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" fullPackage="Unittest" package="Unittest" tests="32" assertions="46" failures="0" errors="0" time="3.687791">
+        <testsuite name="Kohana_CoreTest::test_sanitize" tests="4" assertions="4" failures="0" errors="0" time="0.020967">
+          <testcase name="test_sanitize with data set #0" assertions="1" time="0.005217"/>
+          <testcase name="test_sanitize with data set #1" assertions="1" time="0.005368"/>
+          <testcase name="test_sanitize with data set #2" assertions="1" time="0.005213"/>
+          <testcase name="test_sanitize with data set #3" assertions="1" time="0.005169"/>
+        </testsuite>
+        <testcase name="test_find_file_returns_false_or_array_on_failure" class="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" line="59" assertions="2" time="0.006350"/>
+        <testcase name="test_list_files_returns_array_on_success_and_failure" class="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" line="72" assertions="3" time="0.009307"/>
+        <testcase name="test_globals_removes_user_def_globals" class="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" line="88" assertions="1" time="0.003466"/>
+        <testsuite name="Kohana_CoreTest::test_cache" tests="3" assertions="3" failures="0" errors="0" time="0.008310">
+          <testcase name="test_cache with data set #0" assertions="1" time="0.003075"/>
+          <testcase name="test_cache with data set #1" assertions="1" time="0.002626"/>
+          <testcase name="test_cache with data set #2" assertions="1" time="0.002609"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::test_message" tests="2" assertions="2" failures="0" errors="0" time="0.006171">
+          <testcase name="test_message with data set #0" assertions="1" time="0.003594"/>
+          <testcase name="test_message with data set #1" assertions="1" time="0.002577"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::test_error_handler" tests="1" assertions="2" failures="0" errors="0" time="0.002958">
+          <testcase name="test_error_handler with data set #0" assertions="2" time="0.002958"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::teste_exception_handler" tests="3" assertions="6" failures="0" errors="0" time="3.581657">
+          <testcase name="teste_exception_handler with data set #0" assertions="2" time="0.007415"/>
+          <testcase name="teste_exception_handler with data set #1" assertions="2" time="0.004712"/>
+          <testcase name="teste_exception_handler with data set #2" assertions="2" time="3.569530"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::testdebug" tests="1" assertions="1" failures="0" errors="0" time="0.003199">
+          <testcase name="testdebug with data set #0" assertions="1" time="0.003199"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::testDebugPath" tests="2" assertions="2" failures="0" errors="0" time="0.004938">
+          <testcase name="testDebugPath with data set #0" assertions="1" time="0.002512"/>
+          <testcase name="testDebugPath with data set #1" assertions="1" time="0.002426"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::test_modules_sets_and_returns_valid_modules" tests="3" assertions="3" failures="0" errors="0" time="0.008751">
+          <testcase name="test_modules_sets_and_returns_valid_modules with data set #0" assertions="1" time="0.002867"/>
+          <testcase name="test_modules_sets_and_returns_valid_modules with data set #1" assertions="1" time="0.002796"/>
+          <testcase name="test_modules_sets_and_returns_valid_modules with data set #2" assertions="1" time="0.003088"/>
+        </testsuite>
+        <testcase name="test_modules_returns_array_of_modules" class="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" line="368" assertions="2" time="0.004210"/>
+        <testcase name="test_include_paths" class="Kohana_CoreTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/CoreTest.php" line="384" assertions="7" time="0.005426"/>
+        <testsuite name="Kohana_CoreTest::test_exception_text" tests="1" assertions="1" failures="0" errors="0" time="0.002538">
+          <testcase name="test_exception_text with data set #0" assertions="1" time="0.002538"/>
+        </testsuite>
+        <testsuite name="Kohana_CoreTest::test_dump" tests="7" assertions="7" failures="0" errors="0" time="0.019543">
+          <testcase name="test_dump with data set #0" assertions="1" time="0.002781"/>
+          <testcase name="test_dump with data set #1" assertions="1" time="0.002999"/>
+          <testcase name="test_dump with data set #2" assertions="1" time="0.002401"/>
+          <testcase name="test_dump with data set #3" assertions="1" time="0.002545"/>
+          <testcase name="test_dump with data set #4" assertions="1" time="0.003122"/>
+          <testcase name="test_dump with data set #5" assertions="1" time="0.002595"/>
+          <testcase name="test_dump with data set #6" assertions="1" time="0.003100"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_DateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php" fullPackage="Unittest" package="Unittest" tests="125" assertions="933" failures="4" errors="0" time="0.533405">
+        <testsuite name="Kohana_DateTest::test_offset" tests="1" assertions="1" failures="0" errors="0" time="0.002537">
+          <testcase name="test_offset with data set #0" assertions="1" time="0.002537"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_am_pm" tests="27" assertions="27" failures="0" errors="0" time="0.070822">
+          <testcase name="test_am_pm with data set #0" assertions="1" time="0.002300"/>
+          <testcase name="test_am_pm with data set #1" assertions="1" time="0.002377"/>
+          <testcase name="test_am_pm with data set #2" assertions="1" time="0.002334"/>
+          <testcase name="test_am_pm with data set #3" assertions="1" time="0.002295"/>
+          <testcase name="test_am_pm with data set #4" assertions="1" time="0.002272"/>
+          <testcase name="test_am_pm with data set #5" assertions="1" time="0.002296"/>
+          <testcase name="test_am_pm with data set #6" assertions="1" time="0.002301"/>
+          <testcase name="test_am_pm with data set #7" assertions="1" time="0.002316"/>
+          <testcase name="test_am_pm with data set #8" assertions="1" time="0.002446"/>
+          <testcase name="test_am_pm with data set #9" assertions="1" time="0.002300"/>
+          <testcase name="test_am_pm with data set #10" assertions="1" time="0.002439"/>
+          <testcase name="test_am_pm with data set #11" assertions="1" time="0.002344"/>
+          <testcase name="test_am_pm with data set #12" assertions="1" time="0.002825"/>
+          <testcase name="test_am_pm with data set #13" assertions="1" time="0.002306"/>
+          <testcase name="test_am_pm with data set #14" assertions="1" time="0.002393"/>
+          <testcase name="test_am_pm with data set #15" assertions="1" time="0.006507"/>
+          <testcase name="test_am_pm with data set #16" assertions="1" time="0.003877"/>
+          <testcase name="test_am_pm with data set #17" assertions="1" time="0.003284"/>
+          <testcase name="test_am_pm with data set #18" assertions="1" time="0.002399"/>
+          <testcase name="test_am_pm with data set #19" assertions="1" time="0.002513"/>
+          <testcase name="test_am_pm with data set #20" assertions="1" time="0.002323"/>
+          <testcase name="test_am_pm with data set #21" assertions="1" time="0.002541"/>
+          <testcase name="test_am_pm with data set #22" assertions="1" time="0.002377"/>
+          <testcase name="test_am_pm with data set #23" assertions="1" time="0.002324"/>
+          <testcase name="test_am_pm with data set #24" assertions="1" time="0.002414"/>
+          <testcase name="test_am_pm with data set #25" assertions="1" time="0.002337"/>
+          <testcase name="test_am_pm with data set #26" assertions="1" time="0.002382"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_adjust" tests="26" assertions="26" failures="0" errors="0" time="0.070612">
+          <testcase name="test_adjust with data set #0" assertions="1" time="0.002436"/>
+          <testcase name="test_adjust with data set #1" assertions="1" time="0.002365"/>
+          <testcase name="test_adjust with data set #2" assertions="1" time="0.002497"/>
+          <testcase name="test_adjust with data set #3" assertions="1" time="0.002585"/>
+          <testcase name="test_adjust with data set #4" assertions="1" time="0.002332"/>
+          <testcase name="test_adjust with data set #5" assertions="1" time="0.002588"/>
+          <testcase name="test_adjust with data set #6" assertions="1" time="0.002382"/>
+          <testcase name="test_adjust with data set #7" assertions="1" time="0.002499"/>
+          <testcase name="test_adjust with data set #8" assertions="1" time="0.002336"/>
+          <testcase name="test_adjust with data set #9" assertions="1" time="0.002591"/>
+          <testcase name="test_adjust with data set #10" assertions="1" time="0.002307"/>
+          <testcase name="test_adjust with data set #11" assertions="1" time="0.002494"/>
+          <testcase name="test_adjust with data set #12" assertions="1" time="0.002364"/>
+          <testcase name="test_adjust with data set #13" assertions="1" time="0.002596"/>
+          <testcase name="test_adjust with data set #14" assertions="1" time="0.002392"/>
+          <testcase name="test_adjust with data set #15" assertions="1" time="0.002380"/>
+          <testcase name="test_adjust with data set #16" assertions="1" time="0.002366"/>
+          <testcase name="test_adjust with data set #17" assertions="1" time="0.002362"/>
+          <testcase name="test_adjust with data set #18" assertions="1" time="0.007606"/>
+          <testcase name="test_adjust with data set #19" assertions="1" time="0.003879"/>
+          <testcase name="test_adjust with data set #20" assertions="1" time="0.003065"/>
+          <testcase name="test_adjust with data set #21" assertions="1" time="0.002460"/>
+          <testcase name="test_adjust with data set #22" assertions="1" time="0.002497"/>
+          <testcase name="test_adjust with data set #23" assertions="1" time="0.002338"/>
+          <testcase name="test_adjust with data set #24" assertions="1" time="0.002541"/>
+          <testcase name="test_adjust with data set #25" assertions="1" time="0.002354"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_days" tests="13" assertions="797" failures="0" errors="0" time="0.225986">
+          <testcase name="test_days with data set #0" assertions="61" time="0.018100"/>
+          <testcase name="test_days with data set #1" assertions="61" time="0.018056"/>
+          <testcase name="test_days with data set #2" assertions="61" time="0.017137"/>
+          <testcase name="test_days with data set #3" assertions="61" time="0.017027"/>
+          <testcase name="test_days with data set #4" assertions="63" time="0.017784"/>
+          <testcase name="test_days with data set #5" assertions="63" time="0.017835"/>
+          <testcase name="test_days with data set #6" assertions="63" time="0.017709"/>
+          <testcase name="test_days with data set #7" assertions="63" time="0.017616"/>
+          <testcase name="test_days with data set #8" assertions="63" time="0.017557"/>
+          <testcase name="test_days with data set #9" assertions="63" time="0.017782"/>
+          <testcase name="test_days with data set #10" assertions="57" time="0.016188"/>
+          <testcase name="test_days with data set #11" assertions="59" time="0.016769"/>
+          <testcase name="test_days with data set #12" assertions="59" time="0.016427"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_formatted_time" tests="2" assertions="2" failures="0" errors="0" time="0.004886">
+          <testcase name="test_formatted_time with data set #0" assertions="1" time="0.002454"/>
+          <testcase name="test_formatted_time with data set #1" assertions="1" time="0.002432"/>
+        </testsuite>
+        <testcase name="test_months" class="Kohana_DateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php" line="256" assertions="25" time="0.008378"/>
+        <testsuite name="Kohana_DateTest::test_span" tests="6" assertions="6" failures="0" errors="0" time="0.015573">
+          <testcase name="test_span with data set #0" assertions="1" time="0.002638"/>
+          <testcase name="test_span with data set #1" assertions="1" time="0.002548"/>
+          <testcase name="test_span with data set #2" assertions="1" time="0.002582"/>
+          <testcase name="test_span with data set #3" assertions="1" time="0.002613"/>
+          <testcase name="test_span with data set #4" assertions="1" time="0.002516"/>
+          <testcase name="test_span with data set #5" assertions="1" time="0.002676"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_fuzzy_span" tests="40" assertions="40" failures="0" errors="0" time="0.100471">
+          <testcase name="test_fuzzy_span with data set #0" assertions="1" time="0.002341"/>
+          <testcase name="test_fuzzy_span with data set #1" assertions="1" time="0.002492"/>
+          <testcase name="test_fuzzy_span with data set #2" assertions="1" time="0.002431"/>
+          <testcase name="test_fuzzy_span with data set #3" assertions="1" time="0.002368"/>
+          <testcase name="test_fuzzy_span with data set #4" assertions="1" time="0.002483"/>
+          <testcase name="test_fuzzy_span with data set #5" assertions="1" time="0.002361"/>
+          <testcase name="test_fuzzy_span with data set #6" assertions="1" time="0.002355"/>
+          <testcase name="test_fuzzy_span with data set #7" assertions="1" time="0.002342"/>
+          <testcase name="test_fuzzy_span with data set #8" assertions="1" time="0.002360"/>
+          <testcase name="test_fuzzy_span with data set #9" assertions="1" time="0.002394"/>
+          <testcase name="test_fuzzy_span with data set #10" assertions="1" time="0.002439"/>
+          <testcase name="test_fuzzy_span with data set #11" assertions="1" time="0.002356"/>
+          <testcase name="test_fuzzy_span with data set #12" assertions="1" time="0.002344"/>
+          <testcase name="test_fuzzy_span with data set #13" assertions="1" time="0.002477"/>
+          <testcase name="test_fuzzy_span with data set #14" assertions="1" time="0.002650"/>
+          <testcase name="test_fuzzy_span with data set #15" assertions="1" time="0.002411"/>
+          <testcase name="test_fuzzy_span with data set #16" assertions="1" time="0.002525"/>
+          <testcase name="test_fuzzy_span with data set #17" assertions="1" time="0.002376"/>
+          <testcase name="test_fuzzy_span with data set #18" assertions="1" time="0.002598"/>
+          <testcase name="test_fuzzy_span with data set #19" assertions="1" time="0.002360"/>
+          <testcase name="test_fuzzy_span with data set #20" assertions="1" time="0.002519"/>
+          <testcase name="test_fuzzy_span with data set #21" assertions="1" time="0.002387"/>
+          <testcase name="test_fuzzy_span with data set #22" assertions="1" time="0.002721"/>
+          <testcase name="test_fuzzy_span with data set #23" assertions="1" time="0.002556"/>
+          <testcase name="test_fuzzy_span with data set #24" assertions="1" time="0.002556"/>
+          <testcase name="test_fuzzy_span with data set #25" assertions="1" time="0.002530"/>
+          <testcase name="test_fuzzy_span with data set #26" assertions="1" time="0.002548"/>
+          <testcase name="test_fuzzy_span with data set #27" assertions="1" time="0.002545"/>
+          <testcase name="test_fuzzy_span with data set #28" assertions="1" time="0.002567"/>
+          <testcase name="test_fuzzy_span with data set #29" assertions="1" time="0.002652"/>
+          <testcase name="test_fuzzy_span with data set #30" assertions="1" time="0.002563"/>
+          <testcase name="test_fuzzy_span with data set #31" assertions="1" time="0.002663"/>
+          <testcase name="test_fuzzy_span with data set #32" assertions="1" time="0.002658"/>
+          <testcase name="test_fuzzy_span with data set #33" assertions="1" time="0.002673"/>
+          <testcase name="test_fuzzy_span with data set #34" assertions="1" time="0.002560"/>
+          <testcase name="test_fuzzy_span with data set #35" assertions="1" time="0.002637"/>
+          <testcase name="test_fuzzy_span with data set #36" assertions="1" time="0.002683"/>
+          <testcase name="test_fuzzy_span with data set #37" assertions="1" time="0.002617"/>
+          <testcase name="test_fuzzy_span with data set #38" assertions="1" time="0.002756"/>
+          <testcase name="test_fuzzy_span with data set #39" assertions="1" time="0.002616"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_years" tests="1" assertions="1" failures="0" errors="0" time="0.002660">
+          <testcase name="test_years with data set #0" assertions="1" time="0.002660"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_hours" tests="1" assertions="1" failures="0" errors="0" time="0.002711">
+          <testcase name="test_hours with data set #0" assertions="1" time="0.002711"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_seconds" tests="1" assertions="1" failures="0" errors="0" time="0.003562">
+          <testcase name="test_seconds with data set #0" assertions="1" time="0.003562"/>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_minutes" tests="1" assertions="1" failures="0" errors="0" time="0.003557">
+          <testcase name="test_minutes with data set #0" assertions="1" time="0.003557"/>
+        </testsuite>
+        <testcase name="test_minutes_defaults_to_using_step_of5" class="Kohana_DateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php" line="594" assertions="1" time="0.002807"/>
+        <testsuite name="Kohana_DateTest::test_unix2dos" tests="2" assertions="2" failures="2" errors="0" time="0.009666">
+          <testcase name="test_unix2dos with data set #0" assertions="1" time="0.006050">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_DateTest::test_unix2dos with data set #0 (1024341746, 1281786936)
+Failed asserting that &lt;integer:1024358130&gt; is identical to &lt;integer:1024341746&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php:645
+</failure>
+          </testcase>
+          <testcase name="test_unix2dos with data set #1" assertions="1" time="0.003616">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_DateTest::test_unix2dos with data set #1 (2162688, 315554400)
+Failed asserting that &lt;integer:2181120&gt; is identical to &lt;integer:2162688&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php:645
+</failure>
+          </testcase>
+        </testsuite>
+        <testsuite name="Kohana_DateTest::test_dos2unix" tests="2" assertions="2" failures="2" errors="0" time="0.009176">
+          <testcase name="test_dos2unix with data set #0" assertions="1" time="0.003530">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_DateTest::test_dos2unix with data set #0 (1281786936, 1024341746)
+Failed asserting that &lt;integer:1281758136&gt; matches expected &lt;integer:1281786936&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php:677
+</failure>
+          </testcase>
+          <testcase name="test_dos2unix with data set #1" assertions="1" time="0.005646">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_DateTest::test_dos2unix with data set #1 (315554400, 2162688)
+Failed asserting that &lt;integer:315522000&gt; matches expected &lt;integer:315554400&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/DateTest.php:677
+</failure>
+          </testcase>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_FeedTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/FeedTest.php" fullPackage="Unittest" package="Unittest" tests="2" assertions="5" failures="0" errors="0" time="1.342300">
+        <testsuite name="Kohana_FeedTest::test_parse" tests="1" assertions="1" failures="0" errors="0" time="1.318018">
+          <testcase name="test_parse with data set #0" assertions="1" time="1.318018"/>
+        </testsuite>
+        <testsuite name="Kohana_FeedTest::test_create" tests="1" assertions="4" failures="0" errors="0" time="0.024282">
+          <testcase name="test_create with data set #0" assertions="4" time="0.024282"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_FileTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/FileTest.php" fullPackage="Unittest" package="Unittest" tests="3" assertions="4" failures="0" errors="0" time="0.035426">
+        <testsuite name="Kohana_FileTest::test_mime" tests="2" assertions="2" failures="0" errors="0" time="0.031437">
+          <testcase name="test_mime with data set #0" assertions="1" time="0.005234"/>
+          <testcase name="test_mime with data set #1" assertions="1" time="0.026203"/>
+        </testsuite>
+        <testsuite name="Kohana_FileTest::test_split_join" tests="1" assertions="2" failures="0" errors="0" time="0.003989">
+          <testcase name="test_split_join with data set #0" assertions="2" time="0.003989"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_FormTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/FormTest.php" fullPackage="Unittest" package="Unittest" tests="34" assertions="34" failures="0" errors="0" time="0.144899">
+        <testsuite name="Kohana_FormTest::test_open" tests="3" assertions="3" failures="0" errors="0" time="0.016137">
+          <testcase name="test_open with data set #0" assertions="1" time="0.007259"/>
+          <testcase name="test_open with data set #1" assertions="1" time="0.004158"/>
+          <testcase name="test_open with data set #2" assertions="1" time="0.004720"/>
+        </testsuite>
+        <testcase name="test_close" class="Kohana_FormTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/FormTest.php" line="73" assertions="1" time="0.003350"/>
+        <testsuite name="Kohana_FormTest::test_input" tests="4" assertions="4" failures="0" errors="0" time="0.016775">
+          <testcase name="test_input with data set #0" assertions="1" time="0.004137"/>
+          <testcase name="test_input with data set #1" assertions="1" time="0.004104"/>
+          <testcase name="test_input with data set #2" assertions="1" time="0.004395"/>
+          <testcase name="test_input with data set #3" assertions="1" time="0.004139"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_file" tests="1" assertions="1" failures="0" errors="0" time="0.003155">
+          <testcase name="test_file with data set #0" assertions="1" time="0.003155"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_check" tests="6" assertions="6" failures="0" errors="0" time="0.026409">
+          <testcase name="test_check with data set #0" assertions="1" time="0.004142"/>
+          <testcase name="test_check with data set #1" assertions="1" time="0.004323"/>
+          <testcase name="test_check with data set #2" assertions="1" time="0.004433"/>
+          <testcase name="test_check with data set #3" assertions="1" time="0.004326"/>
+          <testcase name="test_check with data set #4" assertions="1" time="0.004587"/>
+          <testcase name="test_check with data set #5" assertions="1" time="0.004598"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_text" tests="5" assertions="5" failures="0" errors="0" time="0.021731">
+          <testcase name="test_text with data set #0" assertions="1" time="0.004520"/>
+          <testcase name="test_text with data set #1" assertions="1" time="0.004395"/>
+          <testcase name="test_text with data set #2" assertions="1" time="0.004101"/>
+          <testcase name="test_text with data set #3" assertions="1" time="0.004248"/>
+          <testcase name="test_text with data set #4" assertions="1" time="0.004467"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_select" tests="6" assertions="6" failures="0" errors="0" time="0.024172">
+          <testcase name="test_select with data set #0" assertions="1" time="0.003194"/>
+          <testcase name="test_select with data set #1" assertions="1" time="0.003489"/>
+          <testcase name="test_select with data set #2" assertions="1" time="0.003657"/>
+          <testcase name="test_select with data set #3" assertions="1" time="0.004023"/>
+          <testcase name="test_select with data set #4" assertions="1" time="0.003900"/>
+          <testcase name="test_select with data set #5" assertions="1" time="0.005909"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_submit" tests="1" assertions="1" failures="0" errors="0" time="0.004486">
+          <testcase name="test_submit with data set #0" assertions="1" time="0.004486"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::test_image" tests="1" assertions="1" failures="0" errors="0" time="0.004157">
+          <testcase name="test_image with data set #0" assertions="1" time="0.004157"/>
+        </testsuite>
+        <testsuite name="Kohana_FormTest::testLabel" tests="6" assertions="6" failures="0" errors="0" time="0.024527">
+          <testcase name="testLabel with data set #0" assertions="1" time="0.007162"/>
+          <testcase name="testLabel with data set #1" assertions="1" time="0.004098"/>
+          <testcase name="testLabel with data set #2" assertions="1" time="0.003563"/>
+          <testcase name="testLabel with data set #3" assertions="1" time="0.003187"/>
+          <testcase name="testLabel with data set #4" assertions="1" time="0.003138"/>
+          <testcase name="testLabel with data set #5" assertions="1" time="0.003379"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_HTMLTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/HTMLTest.php" fullPackage="Unittest" package="Unittest" tests="10" assertions="10" failures="0" errors="0" time="0.032640">
+        <testsuite name="Kohana_HTMLTest::test_attributes" tests="3" assertions="3" failures="0" errors="0" time="0.008967">
+          <testcase name="test_attributes with data set #0" assertions="1" time="0.003230"/>
+          <testcase name="test_attributes with data set #1" assertions="1" time="0.002978"/>
+          <testcase name="test_attributes with data set #2" assertions="1" time="0.002759"/>
+        </testsuite>
+        <testsuite name="Kohana_HTMLTest::test_script" tests="1" assertions="1" failures="0" errors="0" time="0.003253">
+          <testcase name="test_script with data set #0" assertions="1" time="0.003253"/>
+        </testsuite>
+        <testsuite name="Kohana_HTMLTest::test_style" tests="1" assertions="1" failures="0" errors="0" time="0.003183">
+          <testcase name="test_style with data set #0" assertions="1" time="0.003183"/>
+        </testsuite>
+        <testsuite name="Kohana_HTMLTest::test_obfuscate" tests="2" assertions="2" failures="0" errors="0" time="0.007177">
+          <testcase name="test_obfuscate with data set #0" assertions="1" time="0.003600"/>
+          <testcase name="test_obfuscate with data set #1" assertions="1" time="0.003577"/>
+        </testsuite>
+        <testsuite name="Kohana_HTMLTest::test_anchor" tests="2" assertions="2" failures="0" errors="0" time="0.006679">
+          <testcase name="test_anchor with data set #0" assertions="1" time="0.003143"/>
+          <testcase name="test_anchor with data set #1" assertions="1" time="0.003536"/>
+        </testsuite>
+        <testsuite name="Kohana_HTMLTest::test_file_anchor" tests="1" assertions="1" failures="0" errors="0" time="0.003382">
+          <testcase name="test_file_anchor with data set #0" assertions="1" time="0.003382"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_I18nTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/I18nTest.php" fullPackage="Unittest" package="Unittest" tests="6" assertions="6" failures="0" errors="0" time="0.018511">
+        <testsuite name="Kohana_I18nTest::test_open" tests="3" assertions="3" failures="0" errors="0" time="0.007017">
+          <testcase name="test_open with data set #0" assertions="1" time="0.002342"/>
+          <testcase name="test_open with data set #1" assertions="1" time="0.002360"/>
+          <testcase name="test_open with data set #2" assertions="1" time="0.002315"/>
+        </testsuite>
+        <testsuite name="Kohana_I18nTest::test_get" tests="3" assertions="3" failures="0" errors="0" time="0.011494">
+          <testcase name="test_get with data set #0" assertions="1" time="0.004183"/>
+          <testcase name="test_get with data set #1" assertions="1" time="0.003791"/>
+          <testcase name="test_get with data set #2" assertions="1" time="0.003520"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_InflectorTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/InflectorTest.php" fullPackage="Unittest" package="Unittest" tests="26" assertions="26" failures="0" errors="0" time="0.096481">
+        <testsuite name="Kohana_InflectorTest::test_uncountable" tests="2" assertions="2" failures="0" errors="0" time="0.015456">
+          <testcase name="test_uncountable with data set #0" assertions="1" time="0.012912"/>
+          <testcase name="test_uncountable with data set #1" assertions="1" time="0.002544"/>
+        </testsuite>
+        <testsuite name="Kohana_InflectorTest::test_singular" tests="10" assertions="10" failures="0" errors="0" time="0.026630">
+          <testcase name="test_singular with data set #0" assertions="1" time="0.002416"/>
+          <testcase name="test_singular with data set #1" assertions="1" time="0.003018"/>
+          <testcase name="test_singular with data set #2" assertions="1" time="0.002295"/>
+          <testcase name="test_singular with data set #3" assertions="1" time="0.002650"/>
+          <testcase name="test_singular with data set #4" assertions="1" time="0.003496"/>
+          <testcase name="test_singular with data set #5" assertions="1" time="0.002420"/>
+          <testcase name="test_singular with data set #6" assertions="1" time="0.002544"/>
+          <testcase name="test_singular with data set #7" assertions="1" time="0.002596"/>
+          <testcase name="test_singular with data set #8" assertions="1" time="0.002733"/>
+          <testcase name="test_singular with data set #9" assertions="1" time="0.002461"/>
+        </testsuite>
+        <testsuite name="Kohana_InflectorTest::test_plural" tests="8" assertions="8" failures="0" errors="0" time="0.030695">
+          <testcase name="test_plural with data set #0" assertions="1" time="0.002666"/>
+          <testcase name="test_plural with data set #1" assertions="1" time="0.002709"/>
+          <testcase name="test_plural with data set #2" assertions="1" time="0.002359"/>
+          <testcase name="test_plural with data set #3" assertions="1" time="0.003887"/>
+          <testcase name="test_plural with data set #4" assertions="1" time="0.003797"/>
+          <testcase name="test_plural with data set #5" assertions="1" time="0.006568"/>
+          <testcase name="test_plural with data set #6" assertions="1" time="0.005153"/>
+          <testcase name="test_plural with data set #7" assertions="1" time="0.003556"/>
+        </testsuite>
+        <testsuite name="Kohana_InflectorTest::test_camelize" tests="6" assertions="6" failures="0" errors="0" time="0.023700">
+          <testcase name="test_camelize with data set #0" assertions="1" time="0.002960"/>
+          <testcase name="test_camelize with data set #1" assertions="1" time="0.003491"/>
+          <testcase name="test_camelize with data set #2" assertions="1" time="0.006970"/>
+          <testcase name="test_camelize with data set #3" assertions="1" time="0.005084"/>
+          <testcase name="test_camelize with data set #4" assertions="1" time="0.002660"/>
+          <testcase name="test_camelize with data set #5" assertions="1" time="0.002535"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_LogTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php" fullPackage="Unittest" package="Unittest" tests="4" assertions="12" failures="0" errors="0" time="0.016994">
+        <testcase name="test_messages_is_initially_empty" class="Kohana_LogTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php" line="25" assertions="2" time="0.003186"/>
+        <testcase name="test_writers_is_initially_empty" class="Kohana_LogTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php" line="39" assertions="2" time="0.002938"/>
+        <testcase name="test_attach_attaches_log_writer_and_returns_this" class="Kohana_LogTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php" line="54" assertions="4" time="0.006435"/>
+        <testcase name="test_detach_removes_log_writer_and_returns_this" class="Kohana_LogTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/LogTest.php" line="74" assertions="4" time="0.004435"/>
+      </testsuite>
+      <testsuite name="Kohana_ModelTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ModelTest.php" fullPackage="Unittest" package="Unittest" tests="1" assertions="0" failures="0" errors="0" time="0.001994">
+        <testcase name="test_construct" class="Kohana_ModelTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ModelTest.php" line="20" assertions="0" time="0.001994"/>
+      </testsuite>
+      <testsuite name="Kohana_NumTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/NumTest.php" fullPackage="Unittest" package="Unittest" tests="10" assertions="10" failures="3" errors="0" time="0.058322">
+        <testsuite name="Kohana_NumTest::test_ordinal" tests="6" assertions="6" failures="0" errors="0" time="0.044814">
+          <testcase name="test_ordinal with data set #0" assertions="1" time="0.031602"/>
+          <testcase name="test_ordinal with data set #1" assertions="1" time="0.002688"/>
+          <testcase name="test_ordinal with data set #2" assertions="1" time="0.002756"/>
+          <testcase name="test_ordinal with data set #3" assertions="1" time="0.002614"/>
+          <testcase name="test_ordinal with data set #4" assertions="1" time="0.002603"/>
+          <testcase name="test_ordinal with data set #5" assertions="1" time="0.002551"/>
+        </testsuite>
+        <testsuite name="Kohana_NumTest::test_format" tests="4" assertions="4" failures="3" errors="0" time="0.013509">
+          <testcase name="test_format with data set #0" assertions="1" time="0.003955">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_NumTest::test_format with data set #0 (10000, 2, false, '10,000.00')
+--- Expected
++++ Actual
+@@ @@
+-10,000.00
++10000,00
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/NumTest.php:93
+</failure>
+          </testcase>
+          <testcase name="test_format with data set #1" assertions="1" time="0.003492">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_NumTest::test_format with data set #1 (10000, 2, true, '10,000.00')
+--- Expected
++++ Actual
+@@ @@
+-10,000.00
++10000.00
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/NumTest.php:93
+</failure>
+          </testcase>
+          <testcase name="test_format with data set #2" assertions="1" time="0.003470">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_NumTest::test_format with data set #2 (123.456, 2, false, '123.46')
+--- Expected
++++ Actual
+@@ @@
+-123.46
++123,46
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/NumTest.php:93
+</failure>
+          </testcase>
+          <testcase name="test_format with data set #3" assertions="1" time="0.002592"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_RemoteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RemoteTest.php" fullPackage="Unittest" package="Unittest" tests="5" assertions="3" failures="0" errors="0" time="1.768498">
+        <testsuite name="Kohana_RemoteTest::test_get" tests="2" assertions="0" failures="0" errors="0" time="0.004275">
+          <testcase name="test_get with data set #0" assertions="0" time="0.002214"/>
+          <testcase name="test_get with data set #1" assertions="0" time="0.002061"/>
+        </testsuite>
+        <testsuite name="Kohana_RemoteTest::test_status" tests="3" assertions="3" failures="0" errors="0" time="1.764223">
+          <testcase name="test_status with data set #0" assertions="1" time="0.618428"/>
+          <testcase name="test_status with data set #1" assertions="1" time="0.561959"/>
+          <testcase name="test_status with data set #2" assertions="1" time="0.583836"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_RequestTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RequestTest.php" fullPackage="Unittest" package="Unittest" tests="10" assertions="22" failures="0" errors="0" time="0.051188">
+        <testcase name="test_create" class="Kohana_RequestTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RequestTest.php" line="21" assertions="4" time="0.014687"/>
+        <testcase name="test_accept_type" class="Kohana_RequestTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RequestTest.php" line="46" assertions="1" time="0.002871"/>
+        <testsuite name="Kohana_RequestTest::test_instance" tests="3" assertions="12" failures="0" errors="0" time="0.015156">
+          <testcase name="test_instance with data set #0" assertions="3" time="0.004619"/>
+          <testcase name="test_instance with data set #1" assertions="3" time="0.004602"/>
+          <testcase name="test_instance with data set #2" assertions="6" time="0.005935"/>
+        </testsuite>
+        <testsuite name="Kohana_RequestTest::test_accept_lang" tests="3" assertions="3" failures="0" errors="0" time="0.008944">
+          <testcase name="test_accept_lang with data set #0" assertions="1" time="0.003125"/>
+          <testcase name="test_accept_lang with data set #1" assertions="1" time="0.002814"/>
+          <testcase name="test_accept_lang with data set #2" assertions="1" time="0.003005"/>
+        </testsuite>
+        <testsuite name="Kohana_RequestTest::test_url" tests="2" assertions="2" failures="0" errors="0" time="0.009530">
+          <testcase name="test_url with data set #0" assertions="1" time="0.005181"/>
+          <testcase name="test_url with data set #1" assertions="1" time="0.004349"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" fullPackage="Unittest" package="Unittest" tests="19" assertions="57" failures="0" errors="0" time="0.097170">
+        <testcase name="test_get_throws_exception_if_route_dnx" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="46" assertions="1" time="0.003338"/>
+        <testcase name="test_all_returns_all_defined_routes" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="58" assertions="1" time="0.003069"/>
+        <testcase name="test_name_returns_routes_name_or_false_if_dnx" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="73" assertions="2" time="0.003585"/>
+        <testcase name="test_cache_stores_route_objects" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="91" assertions="2" time="0.007664"/>
+        <testcase name="test_cache_returns_false_if_cache_dnx" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="117" assertions="1" time="0.003116"/>
+        <testcase name="test_constructor_returns_if_uri_is_null" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="129" assertions="9" time="0.009849"/>
+        <testcase name="test_constructor_only_changes_custom_regex_if_passed" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="155" assertions="4" time="0.004541"/>
+        <testcase name="test_route_uses_custom_regex_passed_to_constructor" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="174" assertions="4" time="0.004583"/>
+        <testcase name="test_matches_returns_false_on_failure" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="194" assertions="1" time="0.003430"/>
+        <testcase name="test_matches_returns_array_of_parameters_on_successful_match" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="208" assertions="7" time="0.007047"/>
+        <testcase name="test_defaults_are_used_if_params_arent_specified" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="230" assertions="9" time="0.009063"/>
+        <testcase name="test_required_parameters_are_needed" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="258" assertions="6" time="0.008600"/>
+        <testcase name="test_reverse_routing_returns_routes_uri_if_route_is_static" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="285" assertions="1" time="0.003187"/>
+        <testcase name="test_uri_throws_exception_if_required_params_are_missing" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="300" assertions="2" time="0.004011"/>
+        <testcase name="test_uri_fills_required_uri_segments_from_params" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="328" assertions="2" time="0.003928"/>
+        <testsuite name="Kohana_RouteTest::test_composing_url_from_route" tests="3" assertions="3" failures="0" errors="0" time="0.014495">
+          <testcase name="test_composing_url_from_route with data set #0" assertions="1" time="0.004704"/>
+          <testcase name="test_composing_url_from_route with data set #1" assertions="1" time="0.004809"/>
+          <testcase name="test_composing_url_from_route with data set #2" assertions="1" time="0.004982"/>
+        </testsuite>
+        <testcase name="test_compile_uses_custom_regex_if_specificed" class="Kohana_RouteTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/RouteTest.php" line="400" assertions="2" time="0.003663"/>
+      </testsuite>
+      <testsuite name="Kohana_SecurityTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SecurityTest.php" fullPackage="Kohana" tests="8" assertions="13" failures="0" errors="0" time="0.028157">
+        <testsuite name="Kohana_SecurityTest::test_encode_php_tags" tests="1" assertions="1" failures="0" errors="0" time="0.002361">
+          <testcase name="test_encode_php_tags with data set #0" assertions="1" time="0.002361"/>
+        </testsuite>
+        <testsuite name="Kohana_SecurityTest::test_strip_image_tags" tests="1" assertions="1" failures="0" errors="0" time="0.002679">
+          <testcase name="test_strip_image_tags with data set #0" assertions="1" time="0.002679"/>
+        </testsuite>
+        <testsuite name="Kohana_SecurityTest::test_csrf_token" tests="5" assertions="10" failures="0" errors="0" time="0.016277">
+          <testcase name="test_csrf_token with data set #0" assertions="2" time="0.003015"/>
+          <testcase name="test_csrf_token with data set #1" assertions="2" time="0.003007"/>
+          <testcase name="test_csrf_token with data set #2" assertions="2" time="0.003596"/>
+          <testcase name="test_csrf_token with data set #3" assertions="2" time="0.003049"/>
+          <testcase name="test_csrf_token with data set #4" assertions="2" time="0.003610"/>
+        </testsuite>
+        <testcase name="test_xss_clean_removes_null_bytes" class="Kohana_SecurityTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SecurityTest.php" line="99" assertions="1" time="0.006840"/>
+      </testsuite>
+      <testsuite name="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" fullPackage="Unittest" package="Unittest" tests="22" assertions="79" failures="0" errors="0" time="0.136055">
+        <testsuite name="Kohana_SessionTest::test_constructor_uses_settings_from_config_and_casts" tests="2" assertions="12" failures="0" errors="0" time="0.016099">
+          <testcase name="test_constructor_uses_settings_from_config_and_casts with data set #0" assertions="7" time="0.010728"/>
+          <testcase name="test_constructor_uses_settings_from_config_and_casts with data set #1" assertions="5" time="0.005371"/>
+        </testsuite>
+        <testcase name="test_bind_actually_binds_variable" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="124" assertions="2" time="0.003960"/>
+        <testcase name="test_initially_session_has_no_data" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="146" assertions="3" time="0.004555"/>
+        <testcase name="test_default_session_name_is_set" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="160" assertions="3" time="0.004770"/>
+        <testcase name="test_default_session_is_unencrypted" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="173" assertions="3" time="0.004619"/>
+        <testcase name="test_default_session_is_not_classed_as_destroyed" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="186" assertions="3" time="0.004621"/>
+        <testsuite name="Kohana_SessionTest::test_get_returns_default_if_var_dnx" tests="3" assertions="6" failures="0" errors="0" time="0.012235">
+          <testcase name="test_get_returns_default_if_var_dnx with data set #0" assertions="2" time="0.004016"/>
+          <testcase name="test_get_returns_default_if_var_dnx with data set #1" assertions="2" time="0.004151"/>
+          <testcase name="test_get_returns_default_if_var_dnx with data set #2" assertions="2" time="0.004068"/>
+        </testsuite>
+        <testcase name="test_get_uses_null_as_default_return_value" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="228" assertions="2" time="0.003935"/>
+        <testcase name="test_get_returns_value_if_it_equals_null" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="242" assertions="2" time="0.004159"/>
+        <testcase name="test_as_array_returns_data_by_ref_or_copy" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="259" assertions="5" time="0.005438"/>
+        <testcase name="test_set_adds_and_modifies_to_session_data" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="284" assertions="6" time="0.005504"/>
+        <testcase name="test_delete_removes_select_session_data" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="311" assertions="7" time="0.006086"/>
+        <testsuite name="Kohana_SessionTest::test_read_loads_session_data" tests="3" assertions="9" failures="0" errors="0" time="0.022275">
+          <testcase name="test_read_loads_session_data with data set #0" assertions="3" time="0.007588"/>
+          <testcase name="test_read_loads_session_data with data set #1" assertions="3" time="0.007463"/>
+          <testcase name="test_read_loads_session_data with data set #2" assertions="3" time="0.007224"/>
+        </testsuite>
+        <testcase name="test_regenerate_tells_driver_to_regenerate" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="405" assertions="2" time="0.006981"/>
+        <testcase name="test_destroy_deletes_data_if_driver_destroys_session" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="426" assertions="4" time="0.010111"/>
+        <testcase name="test_destroy_only_deletes_data_if_driver_destroys_session" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="452" assertions="4" time="0.015265"/>
+        <testcase name="test_get_once_gets_once_or_returns_default" class="Kohana_SessionTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/SessionTest.php" line="481" assertions="6" time="0.005442"/>
+      </testsuite>
+      <testsuite name="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" fullPackage="Kohana" tests="61" assertions="67" failures="4" errors="0" time="0.201054">
+        <testcase name="test_auto_para_returns_empty_string_on_empty_input" class="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" line="27" assertions="1" time="0.005853"/>
+        <testsuite name="Kohana_TextTest::test_auto_para_does_not_enclose_html_tags_in_paragraphs" tests="2" assertions="2" failures="0" errors="0" time="0.008159">
+          <testcase name="test_auto_para_does_not_enclose_html_tags_in_paragraphs with data set #0" assertions="1" time="0.004217"/>
+          <testcase name="test_auto_para_does_not_enclose_html_tags_in_paragraphs with data set #1" assertions="1" time="0.003942"/>
+        </testsuite>
+        <testcase name="test_auto_para_encloses_slot_in_paragraph" class="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" line="76" assertions="1" time="0.002838"/>
+        <testsuite name="Kohana_TextTest::test_limit_words" tests="4" assertions="4" failures="0" errors="0" time="0.010959">
+          <testcase name="test_limit_words with data set #0" assertions="1" time="0.002599"/>
+          <testcase name="test_limit_words with data set #1" assertions="1" time="0.002464"/>
+          <testcase name="test_limit_words with data set #2" assertions="1" time="0.002808"/>
+          <testcase name="test_limit_words with data set #3" assertions="1" time="0.003088"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_limit_chars" tests="9" assertions="9" failures="0" errors="0" time="0.031170">
+          <testcase name="test_limit_chars with data set #0" assertions="1" time="0.002712"/>
+          <testcase name="test_limit_chars with data set #1" assertions="1" time="0.002540"/>
+          <testcase name="test_limit_chars with data set #2" assertions="1" time="0.002799"/>
+          <testcase name="test_limit_chars with data set #3" assertions="1" time="0.007971"/>
+          <testcase name="test_limit_chars with data set #4" assertions="1" time="0.004310"/>
+          <testcase name="test_limit_chars with data set #5" assertions="1" time="0.002798"/>
+          <testcase name="test_limit_chars with data set #6" assertions="1" time="0.002617"/>
+          <testcase name="test_limit_chars with data set #7" assertions="1" time="0.002857"/>
+          <testcase name="test_limit_chars with data set #8" assertions="1" time="0.002566"/>
+        </testsuite>
+        <testcase name="test_alternate_alternates_between_parameters" class="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" line="147" assertions="4" time="0.003435"/>
+        <testcase name="test_alternate_resets_when_called_with_no_params_and_returns_empty_string" class="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" line="164" assertions="3" time="0.003256"/>
+        <testsuite name="Kohana_TextTest::test_reduce_slashes" tests="2" assertions="2" failures="0" errors="0" time="0.005190">
+          <testcase name="test_reduce_slashes with data set #0" assertions="1" time="0.002518"/>
+          <testcase name="test_reduce_slashes with data set #1" assertions="1" time="0.002672"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_censor" tests="4" assertions="4" failures="0" errors="0" time="0.011631">
+          <testcase name="test_censor with data set #0" assertions="1" time="0.003098"/>
+          <testcase name="test_censor with data set #1" assertions="1" time="0.003008"/>
+          <testcase name="test_censor with data set #2" assertions="1" time="0.002816"/>
+          <testcase name="test_censor with data set #3" assertions="1" time="0.002709"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_random" tests="7" assertions="7" failures="0" errors="0" time="0.020974">
+          <testcase name="test_random with data set #0" assertions="1" time="0.003450"/>
+          <testcase name="test_random with data set #1" assertions="1" time="0.003197"/>
+          <testcase name="test_random with data set #2" assertions="1" time="0.003044"/>
+          <testcase name="test_random with data set #3" assertions="1" time="0.002856"/>
+          <testcase name="test_random with data set #4" assertions="1" time="0.002813"/>
+          <testcase name="test_random with data set #5" assertions="1" time="0.002830"/>
+          <testcase name="test_random with data set #6" assertions="1" time="0.002784"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_similar" tests="1" assertions="1" failures="0" errors="0" time="0.002653">
+          <testcase name="test_similar with data set #0" assertions="1" time="0.002653"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_bytes" tests="4" assertions="4" failures="4" errors="0" time="0.014331">
+          <testcase name="test_bytes with data set #0" assertions="1" time="0.003615">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_TextTest::test_bytes with data set #0 ('256.00 B', 256, NULL, NULL, true)
+--- Expected
++++ Actual
+@@ @@
+-256.00 B
++256,00 B
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php:346
+</failure>
+          </testcase>
+          <testcase name="test_bytes with data set #1" assertions="1" time="0.003696">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_TextTest::test_bytes with data set #1 ('1.02 kB', 1024, NULL, NULL, true)
+--- Expected
++++ Actual
+@@ @@
+-1.02 kB
++1,02 kB
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php:346
+</failure>
+          </testcase>
+          <testcase name="test_bytes with data set #2" assertions="1" time="0.003490">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_TextTest::test_bytes with data set #2 ('0.00147 GB', 1474560, 'GB', '%01.5f %s', true)
+--- Expected
++++ Actual
+@@ @@
+-0.00147 GB
++0,00147 GB
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php:346
+</failure>
+          </testcase>
+          <testcase name="test_bytes with data set #3" assertions="1" time="0.003530">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_TextTest::test_bytes with data set #3 ('1.00 MiB', 1048576, 'MiB', NULL, false)
+--- Expected
++++ Actual
+@@ @@
+-1.00 MiB
++1,00 MiB
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php:346
+</failure>
+          </testcase>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_widont" tests="3" assertions="3" failures="0" errors="0" time="0.007742">
+          <testcase name="test_widont with data set #0" assertions="1" time="0.002608"/>
+          <testcase name="test_widont with data set #1" assertions="1" time="0.002538"/>
+          <testcase name="test_widont with data set #2" assertions="1" time="0.002596"/>
+        </testsuite>
+        <testcase name="test_auto_link_emails_respects_word_boundaries" class="Kohana_TextTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/TextTest.php" line="389" assertions="1" time="0.004570"/>
+        <testsuite name="Kohana_TextTest::test_number" tests="8" assertions="8" failures="0" errors="0" time="0.025861">
+          <testcase name="test_number with data set #0" assertions="1" time="0.002785"/>
+          <testcase name="test_number with data set #1" assertions="1" time="0.002901"/>
+          <testcase name="test_number with data set #2" assertions="1" time="0.002947"/>
+          <testcase name="test_number with data set #3" assertions="1" time="0.003556"/>
+          <testcase name="test_number with data set #4" assertions="1" time="0.003659"/>
+          <testcase name="test_number with data set #5" assertions="1" time="0.003447"/>
+          <testcase name="test_number with data set #6" assertions="1" time="0.003139"/>
+          <testcase name="test_number with data set #7" assertions="1" time="0.003427"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_auto_link_urls" tests="7" assertions="7" failures="0" errors="0" time="0.019690">
+          <testcase name="test_auto_link_urls with data set #0" assertions="1" time="0.003069"/>
+          <testcase name="test_auto_link_urls with data set #1" assertions="1" time="0.002990"/>
+          <testcase name="test_auto_link_urls with data set #2" assertions="1" time="0.002668"/>
+          <testcase name="test_auto_link_urls with data set #3" assertions="1" time="0.002510"/>
+          <testcase name="test_auto_link_urls with data set #4" assertions="1" time="0.002778"/>
+          <testcase name="test_auto_link_urls with data set #5" assertions="1" time="0.002543"/>
+          <testcase name="test_auto_link_urls with data set #6" assertions="1" time="0.003132"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_auto_link_emails" tests="3" assertions="3" failures="0" errors="0" time="0.009657">
+          <testcase name="test_auto_link_emails with data set #0" assertions="1" time="0.003238"/>
+          <testcase name="test_auto_link_emails with data set #1" assertions="1" time="0.002869"/>
+          <testcase name="test_auto_link_emails with data set #2" assertions="1" time="0.003550"/>
+        </testsuite>
+        <testsuite name="Kohana_TextTest::test_auto_link" tests="2" assertions="3" failures="0" errors="0" time="0.013087">
+          <testcase name="test_auto_link with data set #0" assertions="1" time="0.004218"/>
+          <testcase name="test_auto_link with data set #1" assertions="2" time="0.008869"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_URLTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/URLTest.php" fullPackage="Unittest" package="Unittest" tests="46" assertions="46" failures="0" errors="0" time="0.169724">
+        <testsuite name="Kohana_URLTest::test_base" tests="14" assertions="14" failures="0" errors="0" time="0.051314">
+          <testcase name="test_base with data set #0" assertions="1" time="0.004396"/>
+          <testcase name="test_base with data set #1" assertions="1" time="0.003573"/>
+          <testcase name="test_base with data set #2" assertions="1" time="0.003461"/>
+          <testcase name="test_base with data set #3" assertions="1" time="0.003403"/>
+          <testcase name="test_base with data set #4" assertions="1" time="0.003601"/>
+          <testcase name="test_base with data set #5" assertions="1" time="0.003642"/>
+          <testcase name="test_base with data set #6" assertions="1" time="0.003372"/>
+          <testcase name="test_base with data set #7" assertions="1" time="0.003711"/>
+          <testcase name="test_base with data set #8" assertions="1" time="0.003735"/>
+          <testcase name="test_base with data set #9" assertions="1" time="0.003511"/>
+          <testcase name="test_base with data set #10" assertions="1" time="0.003738"/>
+          <testcase name="test_base with data set #11" assertions="1" time="0.003709"/>
+          <testcase name="test_base with data set #12" assertions="1" time="0.003632"/>
+          <testcase name="test_base with data set #13" assertions="1" time="0.003830"/>
+        </testsuite>
+        <testsuite name="Kohana_URLTest::test_site" tests="16" assertions="16" failures="0" errors="0" time="0.059171">
+          <testcase name="test_site with data set #0" assertions="1" time="0.003703"/>
+          <testcase name="test_site with data set #1" assertions="1" time="0.003528"/>
+          <testcase name="test_site with data set #2" assertions="1" time="0.003601"/>
+          <testcase name="test_site with data set #3" assertions="1" time="0.003738"/>
+          <testcase name="test_site with data set #4" assertions="1" time="0.003552"/>
+          <testcase name="test_site with data set #5" assertions="1" time="0.003545"/>
+          <testcase name="test_site with data set #6" assertions="1" time="0.003807"/>
+          <testcase name="test_site with data set #7" assertions="1" time="0.003622"/>
+          <testcase name="test_site with data set #8" assertions="1" time="0.003777"/>
+          <testcase name="test_site with data set #9" assertions="1" time="0.004145"/>
+          <testcase name="test_site with data set #10" assertions="1" time="0.003719"/>
+          <testcase name="test_site with data set #11" assertions="1" time="0.003701"/>
+          <testcase name="test_site with data set #12" assertions="1" time="0.003686"/>
+          <testcase name="test_site with data set #13" assertions="1" time="0.003838"/>
+          <testcase name="test_site with data set #14" assertions="1" time="0.003540"/>
+          <testcase name="test_site with data set #15" assertions="1" time="0.003669"/>
+        </testsuite>
+        <testsuite name="Kohana_URLTest::test_Title" tests="12" assertions="12" failures="0" errors="0" time="0.044767">
+          <testcase name="test_Title with data set #0" assertions="1" time="0.003764"/>
+          <testcase name="test_Title with data set #1" assertions="1" time="0.003461"/>
+          <testcase name="test_Title with data set #2" assertions="1" time="0.003436"/>
+          <testcase name="test_Title with data set #3" assertions="1" time="0.003602"/>
+          <testcase name="test_Title with data set #4" assertions="1" time="0.003606"/>
+          <testcase name="test_Title with data set #5" assertions="1" time="0.003549"/>
+          <testcase name="test_Title with data set #6" assertions="1" time="0.003673"/>
+          <testcase name="test_Title with data set #7" assertions="1" time="0.003437"/>
+          <testcase name="test_Title with data set #8" assertions="1" time="0.003592"/>
+          <testcase name="test_Title with data set #9" assertions="1" time="0.003889"/>
+          <testcase name="test_Title with data set #10" assertions="1" time="0.003677"/>
+          <testcase name="test_Title with data set #11" assertions="1" time="0.005081"/>
+        </testsuite>
+        <testsuite name="Kohana_URLTest::test_query" tests="4" assertions="4" failures="0" errors="0" time="0.014472">
+          <testcase name="test_query with data set #0" assertions="1" time="0.003460"/>
+          <testcase name="test_query with data set #1" assertions="1" time="0.003845"/>
+          <testcase name="test_query with data set #2" assertions="1" time="0.003763"/>
+          <testcase name="test_query with data set #3" assertions="1" time="0.003404"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_UTF8Test" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/UTF8Test.php" fullPackage="Unittest" package="Unittest" tests="22" assertions="22" failures="0" errors="0" time="0.059530">
+        <testsuite name="Kohana_UTF8Test::test_clean" tests="5" assertions="5" failures="0" errors="0" time="0.013082">
+          <testcase name="test_clean with data set #0" assertions="1" time="0.002767"/>
+          <testcase name="test_clean with data set #1" assertions="1" time="0.002555"/>
+          <testcase name="test_clean with data set #2" assertions="1" time="0.002533"/>
+          <testcase name="test_clean with data set #3" assertions="1" time="0.002709"/>
+          <testcase name="test_clean with data set #4" assertions="1" time="0.002518"/>
+        </testsuite>
+        <testsuite name="Kohana_UTF8Test::test_is_ascii" tests="5" assertions="5" failures="0" errors="0" time="0.013118">
+          <testcase name="test_is_ascii with data set #0" assertions="1" time="0.002573"/>
+          <testcase name="test_is_ascii with data set #1" assertions="1" time="0.002565"/>
+          <testcase name="test_is_ascii with data set #2" assertions="1" time="0.002667"/>
+          <testcase name="test_is_ascii with data set #3" assertions="1" time="0.002653"/>
+          <testcase name="test_is_ascii with data set #4" assertions="1" time="0.002660"/>
+        </testsuite>
+        <testsuite name="Kohana_UTF8Test::test_strip_ascii_ctrl" tests="5" assertions="5" failures="0" errors="0" time="0.012192">
+          <testcase name="test_strip_ascii_ctrl with data set #0" assertions="1" time="0.002391"/>
+          <testcase name="test_strip_ascii_ctrl with data set #1" assertions="1" time="0.002506"/>
+          <testcase name="test_strip_ascii_ctrl with data set #2" assertions="1" time="0.002403"/>
+          <testcase name="test_strip_ascii_ctrl with data set #3" assertions="1" time="0.002402"/>
+          <testcase name="test_strip_ascii_ctrl with data set #4" assertions="1" time="0.002490"/>
+        </testsuite>
+        <testsuite name="Kohana_UTF8Test::test_strip_non_ascii" tests="2" assertions="2" failures="0" errors="0" time="0.005022">
+          <testcase name="test_strip_non_ascii with data set #0" assertions="1" time="0.002411"/>
+          <testcase name="test_strip_non_ascii with data set #1" assertions="1" time="0.002611"/>
+        </testsuite>
+        <testsuite name="Kohana_UTF8Test::test_str_ireplace" tests="3" assertions="3" failures="0" errors="0" time="0.010101">
+          <testcase name="test_str_ireplace with data set #0" assertions="1" time="0.003460"/>
+          <testcase name="test_str_ireplace with data set #1" assertions="1" time="0.003024"/>
+          <testcase name="test_str_ireplace with data set #2" assertions="1" time="0.003617"/>
+        </testsuite>
+        <testsuite name="Kohana_UTF8Test::test_ucwords" tests="2" assertions="2" failures="0" errors="0" time="0.006016">
+          <testcase name="test_ucwords with data set #0" assertions="1" time="0.002829"/>
+          <testcase name="test_ucwords with data set #1" assertions="1" time="0.003187"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Kohana_UploadTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/UploadTest.php" fullPackage="Unittest" package="Unittest" tests="13" assertions="13" failures="0" errors="0" time="0.044392">
+        <testsuite name="Kohana_UploadTest::test_size" tests="4" assertions="4" failures="0" errors="0" time="0.014170">
+          <testcase name="test_size with data set #0" assertions="1" time="0.004966"/>
+          <testcase name="test_size with data set #1" assertions="1" time="0.002954"/>
+          <testcase name="test_size with data set #2" assertions="1" time="0.003225"/>
+          <testcase name="test_size with data set #3" assertions="1" time="0.003025"/>
+        </testsuite>
+        <testcase name="test_size_throws_exception_for_invalid_size" class="Kohana_UploadTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/UploadTest.php" line="96" assertions="1" time="0.003533"/>
+        <testcase name="provider_valid" class="Kohana_UploadTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/UploadTest.php" line="119" assertions="0" time="0.005910"/>
+        <testsuite name="Kohana_UploadTest::test_valid" tests="6" assertions="6" failures="0" errors="0" time="0.016895">
+          <testcase name="test_valid with data set #0" assertions="1" time="0.002750"/>
+          <testcase name="test_valid with data set #1" assertions="1" time="0.002941"/>
+          <testcase name="test_valid with data set #2" assertions="1" time="0.002826"/>
+          <testcase name="test_valid with data set #3" assertions="1" time="0.002866"/>
+          <testcase name="test_valid with data set #4" assertions="1" time="0.002767"/>
+          <testcase name="test_valid with data set #5" assertions="1" time="0.002745"/>
+        </testsuite>
+        <testcase name="test_type" class="Kohana_UploadTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/UploadTest.php" line="205" assertions="2" time="0.003884"/>
+      </testsuite>
+      <testsuite name="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" fullPackage="Unittest" package="Unittest" tests="175" assertions="236" failures="8" errors="0" time="0.728391">
+        <testsuite name="Kohana_ValidateTest::test_alpha" tests="6" assertions="6" failures="0" errors="0" time="0.015883">
+          <testcase name="test_alpha with data set #0" assertions="1" time="0.002586"/>
+          <testcase name="test_alpha with data set #1" assertions="1" time="0.002656"/>
+          <testcase name="test_alpha with data set #2" assertions="1" time="0.002741"/>
+          <testcase name="test_alpha with data set #3" assertions="1" time="0.002617"/>
+          <testcase name="test_alpha with data set #4" assertions="1" time="0.002725"/>
+          <testcase name="test_alpha with data set #5" assertions="1" time="0.002558"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_alpha_numeric" tests="7" assertions="7" failures="0" errors="0" time="0.018405">
+          <testcase name="test_alpha_numeric with data set #0" assertions="1" time="0.002604"/>
+          <testcase name="test_alpha_numeric with data set #1" assertions="1" time="0.002634"/>
+          <testcase name="test_alpha_numeric with data set #2" assertions="1" time="0.002618"/>
+          <testcase name="test_alpha_numeric with data set #3" assertions="1" time="0.002528"/>
+          <testcase name="test_alpha_numeric with data set #4" assertions="1" time="0.002591"/>
+          <testcase name="test_alpha_numeric with data set #5" assertions="1" time="0.002901"/>
+          <testcase name="test_alpha_numeric with data set #6" assertions="1" time="0.002529"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_alpha_dash" tests="5" assertions="10" failures="0" errors="0" time="0.021037">
+          <testcase name="test_alpha_dash with data set #0" assertions="2" time="0.003296"/>
+          <testcase name="test_alpha_dash with data set #1" assertions="2" time="0.003648"/>
+          <testcase name="test_alpha_dash with data set #2" assertions="2" time="0.002993"/>
+          <testcase name="test_alpha_dash with data set #3" assertions="2" time="0.003260"/>
+          <testcase name="test_alpha_dash with data set #4" assertions="2" time="0.007840"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_date" tests="10" assertions="10" failures="0" errors="0" time="0.028046">
+          <testcase name="test_date with data set #0" assertions="1" time="0.004065"/>
+          <testcase name="test_date with data set #1" assertions="1" time="0.002694"/>
+          <testcase name="test_date with data set #2" assertions="1" time="0.002613"/>
+          <testcase name="test_date with data set #3" assertions="1" time="0.002775"/>
+          <testcase name="test_date with data set #4" assertions="1" time="0.002595"/>
+          <testcase name="test_date with data set #5" assertions="1" time="0.002677"/>
+          <testcase name="test_date with data set #6" assertions="1" time="0.002560"/>
+          <testcase name="test_date with data set #7" assertions="1" time="0.002594"/>
+          <testcase name="test_date with data set #8" assertions="1" time="0.002792"/>
+          <testcase name="test_date with data set #9" assertions="1" time="0.002681"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_decimal" tests="3" assertions="3" failures="2" errors="0" time="0.010389">
+          <testcase name="test_decimal with data set #0" assertions="1" time="0.002901"/>
+          <testcase name="test_decimal with data set #1" assertions="1" time="0.003600">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_decimal with data set #1 ('45.1664', 4, NULL, true)
+Decimal: "45.1664" to 4 places and  digits (preceeding period)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:198
+</failure>
+          </testcase>
+          <testcase name="test_decimal with data set #2" assertions="1" time="0.003888">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_decimal with data set #2 ('45.1664', 4, 2, true)
+Decimal: "45.1664" to 4 places and 2 digits (preceeding period)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:198
+</failure>
+          </testcase>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_digit" tests="6" assertions="12" failures="0" errors="0" time="0.018484">
+          <testcase name="test_digit with data set #0" assertions="2" time="0.003261"/>
+          <testcase name="test_digit with data set #1" assertions="2" time="0.003050"/>
+          <testcase name="test_digit with data set #2" assertions="2" time="0.002990"/>
+          <testcase name="test_digit with data set #3" assertions="2" time="0.002979"/>
+          <testcase name="test_digit with data set #4" assertions="2" time="0.003036"/>
+          <testcase name="test_digit with data set #5" assertions="2" time="0.003168"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_color" tests="11" assertions="11" failures="0" errors="0" time="0.029201">
+          <testcase name="test_color with data set #0" assertions="1" time="0.002554"/>
+          <testcase name="test_color with data set #1" assertions="1" time="0.002621"/>
+          <testcase name="test_color with data set #2" assertions="1" time="0.002613"/>
+          <testcase name="test_color with data set #3" assertions="1" time="0.002597"/>
+          <testcase name="test_color with data set #4" assertions="1" time="0.002690"/>
+          <testcase name="test_color with data set #5" assertions="1" time="0.002544"/>
+          <testcase name="test_color with data set #6" assertions="1" time="0.002903"/>
+          <testcase name="test_color with data set #7" assertions="1" time="0.002723"/>
+          <testcase name="test_color with data set #8" assertions="1" time="0.002698"/>
+          <testcase name="test_color with data set #9" assertions="1" time="0.002649"/>
+          <testcase name="test_color with data set #10" assertions="1" time="0.002610"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_credit_card" tests="9" assertions="9" failures="0" errors="0" time="0.030145">
+          <testcase name="test_credit_card with data set #0" assertions="1" time="0.004761"/>
+          <testcase name="test_credit_card with data set #1" assertions="1" time="0.003319"/>
+          <testcase name="test_credit_card with data set #2" assertions="1" time="0.003224"/>
+          <testcase name="test_credit_card with data set #3" assertions="1" time="0.003384"/>
+          <testcase name="test_credit_card with data set #4" assertions="1" time="0.003163"/>
+          <testcase name="test_credit_card with data set #5" assertions="1" time="0.002725"/>
+          <testcase name="test_credit_card with data set #6" assertions="1" time="0.003218"/>
+          <testcase name="test_credit_card with data set #7" assertions="1" time="0.003390"/>
+          <testcase name="test_credit_card with data set #8" assertions="1" time="0.002961"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_luhn" tests="8" assertions="8" failures="0" errors="0" time="0.022826">
+          <testcase name="test_luhn with data set #0" assertions="1" time="0.002923"/>
+          <testcase name="test_luhn with data set #1" assertions="1" time="0.003085"/>
+          <testcase name="test_luhn with data set #2" assertions="1" time="0.003031"/>
+          <testcase name="test_luhn with data set #3" assertions="1" time="0.003033"/>
+          <testcase name="test_luhn with data set #4" assertions="1" time="0.002801"/>
+          <testcase name="test_luhn with data set #5" assertions="1" time="0.002586"/>
+          <testcase name="test_luhn with data set #6" assertions="1" time="0.002736"/>
+          <testcase name="test_luhn with data set #7" assertions="1" time="0.002631"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_email" tests="7" assertions="7" failures="0" errors="0" time="0.018378">
+          <testcase name="test_email with data set #0" assertions="1" time="0.002656"/>
+          <testcase name="test_email with data set #1" assertions="1" time="0.002587"/>
+          <testcase name="test_email with data set #2" assertions="1" time="0.002676"/>
+          <testcase name="test_email with data set #3" assertions="1" time="0.002657"/>
+          <testcase name="test_email with data set #4" assertions="1" time="0.002683"/>
+          <testcase name="test_email with data set #5" assertions="1" time="0.002575"/>
+          <testcase name="test_email with data set #6" assertions="1" time="0.002544"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_email_domain" tests="2" assertions="2" failures="0" errors="0" time="0.195054">
+          <testcase name="test_email_domain with data set #0" assertions="1" time="0.107523"/>
+          <testcase name="test_email_domain with data set #1" assertions="1" time="0.087531"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_exact_length" tests="2" assertions="2" failures="0" errors="0" time="0.005671">
+          <testcase name="test_exact_length with data set #0" assertions="1" time="0.002862"/>
+          <testcase name="test_exact_length with data set #1" assertions="1" time="0.002809"/>
+        </testsuite>
+        <testcase name="test_factory_method_returns_instance_with_values" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="483" assertions="2" time="0.002977"/>
+        <testsuite name="Kohana_ValidateTest::test_ip" tests="6" assertions="6" failures="0" errors="0" time="0.017011">
+          <testcase name="test_ip with data set #0" assertions="1" time="0.002643"/>
+          <testcase name="test_ip with data set #1" assertions="1" time="0.002861"/>
+          <testcase name="test_ip with data set #2" assertions="1" time="0.002989"/>
+          <testcase name="test_ip with data set #3" assertions="1" time="0.002689"/>
+          <testcase name="test_ip with data set #4" assertions="1" time="0.002525"/>
+          <testcase name="test_ip with data set #5" assertions="1" time="0.003304"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_max_length" tests="3" assertions="3" failures="0" errors="0" time="0.012837">
+          <testcase name="test_max_length with data set #0" assertions="1" time="0.006187"/>
+          <testcase name="test_max_length with data set #1" assertions="1" time="0.004013"/>
+          <testcase name="test_max_length with data set #2" assertions="1" time="0.002637"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_min_length" tests="3" assertions="3" failures="0" errors="0" time="0.008102">
+          <testcase name="test_min_length with data set #0" assertions="1" time="0.002656"/>
+          <testcase name="test_min_length with data set #1" assertions="1" time="0.002637"/>
+          <testcase name="test_min_length with data set #2" assertions="1" time="0.002809"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_not_empty" tests="9" assertions="9" failures="0" errors="0" time="0.023618">
+          <testcase name="test_not_empty with data set #0" assertions="1" time="0.002597"/>
+          <testcase name="test_not_empty with data set #1" assertions="1" time="0.002601"/>
+          <testcase name="test_not_empty with data set #2" assertions="1" time="0.002569"/>
+          <testcase name="test_not_empty with data set #3" assertions="1" time="0.002663"/>
+          <testcase name="test_not_empty with data set #4" assertions="1" time="0.002697"/>
+          <testcase name="test_not_empty with data set #5" assertions="1" time="0.002607"/>
+          <testcase name="test_not_empty with data set #6" assertions="1" time="0.002571"/>
+          <testcase name="test_not_empty with data set #7" assertions="1" time="0.002766"/>
+          <testcase name="test_not_empty with data set #8" assertions="1" time="0.002547"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_numeric" tests="16" assertions="16" failures="6" errors="0" time="0.048015">
+          <testcase name="test_numeric with data set #0" assertions="1" time="0.002624"/>
+          <testcase name="test_numeric with data set #1" assertions="1" time="0.002705"/>
+          <testcase name="test_numeric with data set #2" assertions="1" time="0.002602"/>
+          <testcase name="test_numeric with data set #3" assertions="1" time="0.003555">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #3 ('10.5', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #4" assertions="1" time="0.003612">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #4 ('-10.5', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #5" assertions="1" time="0.002645"/>
+          <testcase name="test_numeric with data set #6" assertions="1" time="0.002581"/>
+          <testcase name="test_numeric with data set #7" assertions="1" time="0.002630"/>
+          <testcase name="test_numeric with data set #8" assertions="1" time="0.002588"/>
+          <testcase name="test_numeric with data set #9" assertions="1" time="0.002717"/>
+          <testcase name="test_numeric with data set #10" assertions="1" time="0.003552">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #10 ('.5', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #11" assertions="1" time="0.003649">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #11 ('-.5', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #12" assertions="1" time="0.003620">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #12 ('5.', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #13" assertions="1" time="0.003687">
+            <failure type="PHPUnit_Framework_ExpectationFailedException">Kohana_ValidateTest::test_numeric with data set #13 ('-5.', true)
+Failed asserting that &lt;boolean:false&gt; matches expected &lt;boolean:true&gt;.
+
+/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php:692
+</failure>
+          </testcase>
+          <testcase name="test_numeric with data set #14" assertions="1" time="0.002622"/>
+          <testcase name="test_numeric with data set #15" assertions="1" time="0.002626"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_phone" tests="7" assertions="7" failures="0" errors="0" time="0.018122">
+          <testcase name="test_phone with data set #0" assertions="1" time="0.002597"/>
+          <testcase name="test_phone with data set #1" assertions="1" time="0.002578"/>
+          <testcase name="test_phone with data set #2" assertions="1" time="0.002540"/>
+          <testcase name="test_phone with data set #3" assertions="1" time="0.002630"/>
+          <testcase name="test_phone with data set #4" assertions="1" time="0.002574"/>
+          <testcase name="test_phone with data set #5" assertions="1" time="0.002593"/>
+          <testcase name="test_phone with data set #6" assertions="1" time="0.002610"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_regex" tests="4" assertions="4" failures="0" errors="0" time="0.010313">
+          <testcase name="test_regex with data set #0" assertions="1" time="0.002633"/>
+          <testcase name="test_regex with data set #1" assertions="1" time="0.002517"/>
+          <testcase name="test_regex with data set #2" assertions="1" time="0.002582"/>
+          <testcase name="test_regex with data set #3" assertions="1" time="0.002581"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_range" tests="6" assertions="6" failures="0" errors="0" time="0.015635">
+          <testcase name="test_range with data set #0" assertions="1" time="0.002605"/>
+          <testcase name="test_range with data set #1" assertions="1" time="0.002559"/>
+          <testcase name="test_range with data set #2" assertions="1" time="0.002520"/>
+          <testcase name="test_range with data set #3" assertions="1" time="0.002638"/>
+          <testcase name="test_range with data set #4" assertions="1" time="0.002583"/>
+          <testcase name="test_range with data set #5" assertions="1" time="0.002730"/>
+        </testsuite>
+        <testsuite name="Kohana_ValidateTest::test_url" tests="27" assertions="27" failures="0" errors="0" time="0.070743">
+          <testcase name="test_url with data set #0" assertions="1" time="0.002674"/>
+          <testcase name="test_url with data set #1" assertions="1" time="0.002622"/>
+          <testcase name="test_url with data set #2" assertions="1" time="0.002736"/>
+          <testcase name="test_url with data set #3" assertions="1" time="0.002605"/>
+          <testcase name="test_url with data set #4" assertions="1" time="0.002655"/>
+          <testcase name="test_url with data set #5" assertions="1" time="0.002681"/>
+          <testcase name="test_url with data set #6" assertions="1" time="0.002661"/>
+          <testcase name="test_url with data set #7" assertions="1" time="0.002605"/>
+          <testcase name="test_url with data set #8" assertions="1" time="0.002713"/>
+          <testcase name="test_url with data set #9" assertions="1" time="0.002523"/>
+          <testcase name="test_url with data set #10" assertions="1" time="0.002537"/>
+          <testcase name="test_url with data set #11" assertions="1" time="0.002553"/>
+          <testcase name="test_url with data set #12" assertions="1" time="0.002554"/>
+          <testcase name="test_url with data set #13" assertions="1" time="0.002645"/>
+          <testcase name="test_url with data set #14" assertions="1" time="0.002618"/>
+          <testcase name="test_url with data set #15" assertions="1" time="0.002731"/>
+          <testcase name="test_url with data set #16" assertions="1" time="0.002610"/>
+          <testcase name="test_url with data set #17" assertions="1" time="0.002546"/>
+          <testcase name="test_url with data set #18" assertions="1" time="0.002649"/>
+          <testcase name="test_url with data set #19" assertions="1" time="0.002557"/>
+          <testcase name="test_url with data set #20" assertions="1" time="0.002529"/>
+          <testcase name="test_url with data set #21" assertions="1" time="0.002600"/>
+          <testcase name="test_url with data set #22" assertions="1" time="0.002724"/>
+          <testcase name="test_url with data set #23" assertions="1" time="0.002572"/>
+          <testcase name="test_url with data set #24" assertions="1" time="0.002582"/>
+          <testcase name="test_url with data set #25" assertions="1" time="0.002594"/>
+          <testcase name="test_url with data set #26" assertions="1" time="0.002667"/>
+        </testsuite>
+        <testcase name="test_copy_copies_all_attributes_except_data" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="868" assertions="20" time="0.010242"/>
+        <testcase name="test_initially_there_are_no_callbacks" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="901" assertions="2" time="0.003113"/>
+        <testcase name="test_callback_returns_chainable_this" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="914" assertions="1" time="0.002571"/>
+        <testcase name="test_callback_stores_callback" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="927" assertions="2" time="0.003128"/>
+        <testcase name="test_callbacks_stores_multiple_callbacks" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="949" assertions="2" time="0.003311"/>
+        <testcase name="test_initially_there_are_no_labels" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="973" assertions="2" time="0.002954"/>
+        <testcase name="test_label_adds_and_overwrites_label_and_returns_this" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="989" assertions="6" time="0.004366"/>
+        <testcase name="test_labels_adds_and_overwrites_multiple_labels_and_returns_this" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1016" assertions="6" time="0.004306"/>
+        <testcase name="test_filter_adds_a_filter_and_returns_this" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1040" assertions="3" time="0.003490"/>
+        <testcase name="test_filters_adds_multiple_filters_and_returns_this" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1060" assertions="3" time="0.003414"/>
+        <testsuite name="Kohana_ValidateTest::test_check" tests="2" assertions="6" failures="0" errors="0" time="0.014412">
+          <testcase name="test_check with data set #0" assertions="3" time="0.005967"/>
+          <testcase name="test_check with data set #1" assertions="3" time="0.008445"/>
+        </testsuite>
+        <testcase name="test_object_callback_with_parameters" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1151" assertions="1" time="0.013981"/>
+        <testcase name="test_check_allows_option_for_empty_data_array_to_validate" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1180" assertions="4" time="0.005208"/>
+        <testcase name="test_rule_adds_label_if_rule_is_match_and_label_dnx" class="Kohana_ValidateTest" file="/home/verber/workspace/kohana-test-project/system/tests/kohana/ValidateTest.php" line="1203" assertions="6" time="0.005897"/>
+        <testsuite name="Kohana_ValidateTest::test_errors" tests="2" assertions="2" failures="0" errors="0" time="0.007106">
+          <testcase name="test_errors with data set #0" assertions="1" time="0.003294"/>
+          <testcase name="test_errors with data set #1" assertions="1" time="0.003812"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

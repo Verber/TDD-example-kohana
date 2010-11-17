@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_Config</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_Config</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Wrapper for configuration arrays. Multiple configuration readers can be  attached to allow loading configuration from files, database, etc.</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2009 Kohana Team</li>
+				<li><span class="field">license:</span> <a href="http://kohanaphp.com/license">http://kohanaphp.com/license</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---kohana---config.php.html">/classes/kohana/config.php</a> (line <span class="field">12</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">mixed</span>
+					<a href="#$_instance" title="details" class="var-name">$_instance</a>
+				</div>
+																																				<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$_readers" title="details" class="var-name">$_readers</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																				<div class="method-definition">
+					static 						<span class="method-result"><a href="../Kohana/Kohana_Config.html">Kohana_Config</a></span>
+										<a href="#instance" title="details" class="method-name">instance</a>
+										()
+									</div>
+																
+												<div class="method-definition">
+											<span class="method-result">$this</span>
+										<a href="#attach" title="details" class="method-name">attach</a>
+											(<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">Kohana_Config_Reader</a></span>&nbsp;<span class="var-name">$reader</span>, [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$first</span> = <span class="var-default">TRUE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">$this</span>
+										<a href="#copy" title="details" class="method-name">copy</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">$this</span>
+										<a href="#detach" title="details" class="method-name">detach</a>
+											(<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">Kohana_Config_Reader</a></span>&nbsp;<span class="var-name">$reader</span>)
+									</div>
+																								<div class="method-definition">
+											<span class="method-result"><a href="../Kohana/Kohana_Config_Reader.html">object Kohana_Config_Reader</a></span>
+										<a href="#load" title="details" class="method-name">load</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$_instance" id="$_instance"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$_instance</span>
+						(line <span class="line-number">15</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_readers" id="$_readers"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$_readers</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodinstance" id="instance"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method instance</span> (line <span class="line-number">24</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get the singleton instance of Kohana_Config.</p>
+<p class="description"><p>$config = Kohana_Config::instance();</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result"><a href="../Kohana/Kohana_Config.html">Kohana_Config</a></span>
+		<span class="method-name">
+			instance
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+
+<a name="methodattach" id="attach"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">attach</span> (line <span class="line-number">50</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Attach a configuration reader. By default, the reader will be added as  the first used reader. However, if the reader should be used only when  all other readers fail, use `FALSE` for the second parameter.</p>
+<p class="description"><p>$config-&gt;attach($reader);        // Try first      $config-&gt;attach($reader, FALSE); // Try last</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">$this</span>
+		<span class="method-name">
+			attach
+		</span>
+					(<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">Kohana_Config_Reader</a></span>&nbsp;<span class="var-name">$reader</span>, [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$first</span> = <span class="var-default">TRUE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">object Kohana_Config_Reader</a></span>
+				<span class="var-name">$reader</span><span class="var-description">: instance</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$first</span><span class="var-description">: add the reader as the first used object</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcopy" id="copy"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">copy</span> (line <span class="line-number">127</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Copy one configuration group to all of the other readers.</p>
+<p class="description"><p>$config-&gt;copy($name);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">$this</span>
+		<span class="method-name">
+			copy
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$group</span><span class="var-description">: configuration group name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddetach" id="detach"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">detach</span> (line <span class="line-number">74</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Detach a configuration reader.</p>
+<p class="description"><p>$config-&gt;detach($reader);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">$this</span>
+		<span class="method-name">
+			detach
+		</span>
+					(<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">Kohana_Config_Reader</a></span>&nbsp;<span class="var-name">$reader</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../Kohana/Kohana_Config_Reader.html">object Kohana_Config_Reader</a></span>
+				<span class="var-name">$reader</span><span class="var-description">: instance</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodload" id="load"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">load</span> (line <span class="line-number">96</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Load a configuration group. Searches the readers in order until the  group is found. If the group does not exist, an empty configuration  array will be loaded using the first reader.</p>
+<p class="description"><p>$array = $config-&gt;load($name);</p></p>
+	<ul class="tags">
+				<li><span class="field">throws:</span> Kohana_Exception</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Kohana/Kohana_Config_Reader.html">object Kohana_Config_Reader</a></span>
+		<span class="method-name">
+			load
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$group</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$group</span><span class="var-description">: configuration group name</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:10 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,24 @@
+<!--
+	This is an example phpunit.xml file to get you started
+	Copy it to a directory, update the relative paths and rename to phpunit.xml
+	Then to run tests cd into it's directory and just run
+		phpunit
+	(it'll automatically use any phpunit.xml file in the current directory)
+
+	Any options you specify when calling phpunit will override the ones in here
+-->
+<phpunit colors="true" bootstrap="../../index.php">
+    <testsuites>
+        <testsuite name="Kohana Tests">
+            <file>tests.php</file>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-html" target="../../build/coverage" title="Object_Freezer"
+      charset="UTF-8" yui="true" highlight="true"
+      lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="../../build/logs/clover.xml"/>
+        <log type="junit" target="../../build/logs/junit.xml" logIncompleteSkipped="false"/>
+    </logging>
+
+</phpunit>

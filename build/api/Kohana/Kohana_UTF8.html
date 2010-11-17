@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Kohana_UTF8</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Kohana_UTF8</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A port of [phputf8](http://phputf8.sourceforge.net/) to a unified set  of files. Provides multi-byte aware replacement string functions.</p>
+<p class="description"><p>For UTF-8 support to work correctly, the following requirements must be met:</p><p><ul><li>PCRE needs to be compiled with UTF-8 support (--enable-utf8)</li><li>Support for [Unicode properties](http://php.net/manual/reference.pcre.pattern.modifiers.php)
+   is highly recommended (--enable-unicode-properties)</li><li>UTF-8 conversion will be much more reliable if the
+   [iconv extension](http://php.net/iconv) is loaded</li><li>The [mbstring extension](http://php.net/mbstring) is highly recommended,
+   but must not be overloading string functions</li></ul>  [!!] This file is licensed differently from the rest of Kohana. As a port of  [phputf8](http://phputf8.sourceforge.net/), this file is released under the LGPL.</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2007-2008 Kohana Team</li>
+				<li><span class="field">copyright:</span> (c) 2005 Harry Fuecks</li>
+				<li><span class="field">license:</span> <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt">http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</a></li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_classes---kohana---utf8.php.html">/classes/kohana/utf8.php</a> (line <span class="field">26</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em"><a href="../Kohana/UTF8.html">UTF8</a></td>
+					<td>
+											A port of [phputf8](http://phputf8.sourceforge.net/) to a unified set  of files. Provides multi-byte aware replacement string functions.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+												<div class="var-title">
+					static <span class="var-type">array</span>
+					<a href="#$called" title="details" class="var-name">$called</a>
+				</div>
+																<div class="var-title">
+					static <span class="var-type">boolean</span>
+					<a href="#$server_utf8" title="details" class="var-name">$server_utf8</a>
+				</div>
+																															</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+												<div class="method-definition">
+					static 						<span class="method-result">mixed</span>
+										<a href="#clean" title="details" class="method-name">clean</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$var</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charset</span> = <span class="var-default">'UTF-8'</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#from_unicode" title="details" class="method-name">from_unicode</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$arr</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">boolean</span>
+										<a href="#is_ascii" title="details" class="method-name">is_ascii</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#ltrim" title="details" class="method-name">ltrim</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#ord" title="details" class="method-name">ord</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$chr</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#rtrim" title="details" class="method-name">rtrim</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strcasecmp" title="details" class="method-name">strcasecmp</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str1</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$str2</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strcspn" title="details" class="method-name">strcspn</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mask</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#strip_ascii_ctrl" title="details" class="method-name">strip_ascii_ctrl</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#strip_non_ascii" title="details" class="method-name">strip_non_ascii</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#stristr" title="details" class="method-name">stristr</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strlen" title="details" class="method-name">strlen</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strpos" title="details" class="method-name">strpos</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#strrev" title="details" class="method-name">strrev</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strrpos" title="details" class="method-name">strrpos</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">integer</span>
+										<a href="#strspn" title="details" class="method-name">strspn</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mask</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#strtolower" title="details" class="method-name">strtolower</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#strtoupper" title="details" class="method-name">strtoupper</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#str_ireplace" title="details" class="method-name">str_ireplace</a>
+											(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$search</span>, <span class="var-type">string|array</span>&nbsp;<span class="var-name">$replace</span>, <span class="var-type">string|array</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">&$count</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#str_pad" title="details" class="method-name">str_pad</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$final_str_length</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$pad_str</span> = <span class="var-default">' '</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$pad_type</span> = <span class="var-default">STR_PAD_RIGHT</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#str_split" title="details" class="method-name">str_split</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$split_length</span> = <span class="var-default">1</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#substr" title="details" class="method-name">substr</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#substr_replace" title="details" class="method-name">substr_replace</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$replacement</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">array</span>
+										<a href="#to_unicode" title="details" class="method-name">to_unicode</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#transliterate_to_ascii" title="details" class="method-name">transliterate_to_ascii</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$case</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#trim" title="details" class="method-name">trim</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#ucfirst" title="details" class="method-name">ucfirst</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+																<div class="method-definition">
+					static 						<span class="method-result">string</span>
+										<a href="#ucwords" title="details" class="method-name">ucwords</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+									</div>
+								
+																																																																																																																																																																																																																																				</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$called" id="$called"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">array</span>
+			<span class="var-name">$called</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">36</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> list of called methods</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$server_utf8" id="$server_utf8"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			static <span class="var-type">boolean</span>
+			<span class="var-name">$server_utf8</span>
+			 = <span class="var-default"> NULL</span>			(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">var:</span> does the server support UTF-8 natively?</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodclean" id="clean"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method clean</span> (line <span class="line-number">53</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Recursively cleans arrays, objects, and strings. Removes ASCII control  codes and converts to the requested charset while silently discarding  incompatible characters.</p>
+<p class="description"><p>UTF8::clean($_GET); // Clean GET data</p><p>[!!] This method requires [Iconv](http://php.net/iconv)</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::strip_ascii_ctrl</li>
+				<li><span class="field">uses:</span> UTF8::is_ascii</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			clean
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$var</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charset</span> = <span class="var-default">'UTF-8'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$var</span><span class="var-description">: variable to clean</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$charset</span><span class="var-description">: character set, defaults to UTF-8</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfrom_unicode" id="from_unicode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method from_unicode</span> (line <span class="line-number">742</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Takes an array of ints representing the Unicode characters and returns a UTF-8 string.</p>
+<p class="description"><p>Astral planes are supported i.e. the ints in the input can be &gt; 0xFFFF.  Occurrances of the BOM are ignored. Surrogates are not allowed.</p><p>$str = UTF8::to_unicode($array);</p><p>The Original Code is Mozilla Communicator client code.  The Initial Developer of the Original Code is Netscape Communications Corporation.  Portions created by the Initial Developer are Copyright (C) 1998 the Initial Developer.  Ported to PHP by Henri Sivonen &lt;hsivonen@iki.fi&gt;, see http://hsivonen.iki.fi/php-utf8/  Slight modifications to fit with phputf8 library by Harry Fuecks &lt;hfuecks@gmail.com&gt;.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> utf8 string of characters</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			from_unicode
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$arr</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$arr</span><span class="var-description">: unicode code points representing a string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodis_ascii" id="is_ascii"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method is_ascii</span> (line <span class="line-number">93</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests whether a string contains only 7-bit ASCII bytes. This is used to  determine when to use native functions or UTF-8 functions.</p>
+<p class="description"><p>$ascii = UTF8::is_ascii($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			is_ascii
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$str</span><span class="var-description">: string or array of strings to check</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodltrim" id="ltrim"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ltrim</span> (line <span class="line-number">635</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Strips whitespace (or other UTF-8 characters) from the beginning of  a string. This is a UTF8-aware version of [ltrim](http://php.net/ltrim).</p>
+<p class="description"><p>$str = UTF8::ltrim($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			ltrim
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$charlist</span><span class="var-description">: string of characters to remove</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodord" id="ord"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ord</span> (line <span class="line-number">682</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the unicode ordinal for a character. This is a UTF8-aware  version of [ord](http://php.net/ord).</p>
+<p class="description"><p>$digit = UTF8::ord($character);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			ord
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$chr</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$chr</span><span class="var-description">: UTF-8 encoded character</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrtrim" id="rtrim"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method rtrim</span> (line <span class="line-number">659</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Strips whitespace (or other UTF-8 characters) from the end of a string.</p>
+<p class="description"><p>This is a UTF8-aware version of [rtrim](http://php.net/rtrim).</p><p>$str = UTF8::rtrim($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			rtrim
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$charlist</span><span class="var-description">: string of characters to remove</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrcasecmp" id="strcasecmp"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strcasecmp</span> (line <span class="line-number">408</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Case-insensitive UTF-8 string comparison. This is a UTF8-aware version  of [strcasecmp](http://php.net/strcasecmp).</p>
+<p class="description"><p>$compare = UTF8::strcasecmp($str1, $str2);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> less than 0 if str1 is less than str2</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strcasecmp
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str1</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$str2</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str1</span><span class="var-description">: string to compare</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str2</span><span class="var-description">: string to compare</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrcspn" id="strcspn"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strcspn</span> (line <span class="line-number">515</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds the length of the initial segment not matching mask. This is a  UTF8-aware version of [strcspn](http://php.net/strcspn).</p>
+<p class="description"><p>$found = UTF8::strcspn($str, $mask);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> length of the initial segment that contains characters not in the mask</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strcspn
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mask</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mask</span><span class="var-description">: mask for search</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: start position of the string to examine</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: length of the string to examine</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrip_ascii_ctrl" id="strip_ascii_ctrl"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strip_ascii_ctrl</span> (line <span class="line-number">111</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Strips out device control codes in the ASCII range.</p>
+<p class="description"><p>$str = UTF8::strip_ascii_ctrl($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			strip_ascii_ctrl
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string to clean</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrip_non_ascii" id="strip_non_ascii"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strip_non_ascii</span> (line <span class="line-number">124</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Strips out all non-7bit ASCII bytes.</p>
+<p class="description"><p>$str = UTF8::strip_non_ascii($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			strip_non_ascii
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string to clean</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstristr" id="stristr"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method stristr</span> (line <span class="line-number">463</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Case-insenstive UTF-8 version of strstr. Returns all of input string  from the first occurrence of needle to the end. This is a UTF8-aware  version of [stristr](http://php.net/stristr).</p>
+<p class="description"><p>$found = UTF8::stristr($str, $search);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> matched substring if found</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			stristr
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$search</span><span class="var-description">: needle</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrlen" id="strlen"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strlen</span> (line <span class="line-number">162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the length of the given string. This is a UTF8-aware version  of [strlen](http://php.net/strlen).</p>
+<p class="description"><p>$length = UTF8::strlen($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strlen
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string being measured for length</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrpos" id="strpos"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strpos</span> (line <span class="line-number">192</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds position of first occurrence of a UTF-8 string. This is a  UTF8-aware version of [strpos](http://php.net/strpos).</p>
+<p class="description"><p>$position = UTF8::strpos($str, $search);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> position of needle</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strpos
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: haystack</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$search</span><span class="var-description">: needle</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset from which character in haystack to start searching</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrrev" id="strrev"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strrev</span> (line <span class="line-number">587</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Reverses a UTF-8 string. This is a UTF8-aware version of [strrev](http://php.net/strrev).</p>
+<p class="description"><p>$str = UTF8::strrev($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			strrev
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string to be reversed</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrrpos" id="strrpos"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strrpos</span> (line <span class="line-number">222</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds position of last occurrence of a char in a UTF-8 string. This is  a UTF8-aware version of [strrpos](http://php.net/strrpos).</p>
+<p class="description"><p>$position = UTF8::strrpos($str, $search);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> position of needle</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strrpos
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$search</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: haystack</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$search</span><span class="var-description">: needle</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset from which character in haystack to start searching</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrspn" id="strspn"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strspn</span> (line <span class="line-number">489</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds the length of the initial segment matching mask. This is a  UTF8-aware version of [strspn](http://php.net/strspn).</p>
+<p class="description"><p>$found = UTF8::strspn($str, $mask);</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> length of the initial segment that contains characters in the mask</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">integer</span>
+		<span class="method-name">
+			strspn
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$mask</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">NULL</span>], [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$mask</span><span class="var-description">: mask for search</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: start position of the string to examine</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: length of the string to examine</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrtolower" id="strtolower"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strtolower</span> (line <span class="line-number">306</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Makes a UTF-8 string lowercase. This is a UTF8-aware version  of [strtolower](http://php.net/strtolower).</p>
+<p class="description"><p>$str = UTF8::strtolower($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			strtolower
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: mixed case string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstrtoupper" id="strtoupper"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method strtoupper</span> (line <span class="line-number">332</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Makes a UTF-8 string uppercase. This is a UTF8-aware version  of [strtoupper](http://php.net/strtoupper).</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+				<li><span class="field">uses:</span> Kohana::$charset</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			strtoupper
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: mixed case string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstr_ireplace" id="str_ireplace"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method str_ireplace</span> (line <span class="line-number">437</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a string or an array with all occurrences of search in subject  (ignoring case) and replaced with the given replace value. This is a  UTF8-aware version of [str_ireplace](http://php.net/str_ireplace).</p>
+<p class="description"><p>[!!] This function is very slow compared to the native version. Avoid  using it when possible.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> if the input was a string</li>
+				<li><span class="field">author:</span> Harry Fuecks &lt;hfuecks@gmail.com</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			str_ireplace
+		</span>
+					(<span class="var-type">string|array</span>&nbsp;<span class="var-name">$search</span>, <span class="var-type">string|array</span>&nbsp;<span class="var-name">$replace</span>, <span class="var-type">string|array</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">&$count</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$search</span><span class="var-description">: text to replace</span>			</li>
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$replace</span><span class="var-description">: replacement text</span>			</li>
+					<li>
+				<span class="var-type">string|array</span>
+				<span class="var-name">$str</span><span class="var-description">: subject text</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">&$count</span><span class="var-description">: number of matched and replaced needles will be returned via this parameter which is passed by reference</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstr_pad" id="str_pad"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method str_pad</span> (line <span class="line-number">541</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Pads a UTF-8 string to a certain length with another string. This is a  UTF8-aware version of [str_pad](http://php.net/str_pad).</p>
+<p class="description"><p>$str = UTF8::str_pad($str, $length);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			str_pad
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$final_str_length</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$pad_str</span> = <span class="var-default">' '</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$pad_type</span> = <span class="var-default">STR_PAD_RIGHT</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$final_str_length</span><span class="var-description">: desired string length after padding</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$pad_str</span><span class="var-description">: string to use as padding</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$pad_type</span><span class="var-description">: padding type: STR_PAD_RIGHT, STR_PAD_LEFT, or STR_PAD_BOTH</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstr_split" id="str_split"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method str_split</span> (line <span class="line-number">565</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts a UTF-8 string to an array. This is a UTF8-aware version of  [str_split](http://php.net/str_split).</p>
+<p class="description"><p>$array = UTF8::str_split($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			str_split
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$split_length</span> = <span class="var-default">1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$split_length</span><span class="var-description">: maximum length of each chunk</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsubstr" id="substr"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method substr</span> (line <span class="line-number">252</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns part of a UTF-8 string. This is a UTF8-aware version  of [substr](http://php.net/substr).</p>
+<p class="description"><p>$sub = UTF8::substr($str, $offset);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Chris Smith &lt;<a href="mailto:chris@jalakai.co.uk">chris@jalakai.co.uk</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+				<li><span class="field">uses:</span> Kohana::$charset</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			substr
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$length</span><span class="var-description">: length limit</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsubstr_replace" id="substr_replace"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method substr_replace</span> (line <span class="line-number">282</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Replaces text within a portion of a UTF-8 string. This is a UTF8-aware  version of [substr_replace](http://php.net/substr_replace).</p>
+<p class="description"><p>$str = UTF8::substr_replace($str, $replacement, $offset);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			substr_replace
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$replacement</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$offset</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$length</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$replacement</span><span class="var-description">: replacement string</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$offset</span><span class="var-description">: offset</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$length</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodto_unicode" id="to_unicode"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method to_unicode</span> (line <span class="line-number">712</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Takes an UTF-8 string and returns an array of ints representing the Unicode characters.</p>
+<p class="description"><p>Astral planes are supported i.e. the ints in the output can be &gt; 0xFFFF.  Occurrences of the BOM are ignored. Surrogates are not allowed.</p><p>$array = UTF8::to_unicode($str);</p><p>The Original Code is Mozilla Communicator client code.  The Initial Developer of the Original Code is Netscape Communications Corporation.  Portions created by the Initial Developer are Copyright (C) 1998 the Initial Developer.  Ported to PHP by Henri Sivonen &lt;hsivonen@iki.fi&gt;, see &lt;http://hsivonen.iki.fi/php-utf8/&gt;  Slight modifications to fit with phputf8 library by Harry Fuecks &lt;hfuecks@gmail.com&gt;</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> unicode code points</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">array</span>
+		<span class="method-name">
+			to_unicode
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: UTF-8 encoded string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtransliterate_to_ascii" id="transliterate_to_ascii"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method transliterate_to_ascii</span> (line <span class="line-number">139</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Replaces special/accented UTF-8 characters by ASCII-7 &quot;equivalents&quot;.</p>
+<p class="description"><p>$ascii = UTF8::transliterate_to_ascii($utf8);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			transliterate_to_ascii
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$case</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: string to transliterate</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$case</span><span class="var-description">: -1 lowercase only, +1 uppercase only, 0 both cases</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtrim" id="trim"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method trim</span> (line <span class="line-number">611</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Strips whitespace (or other UTF-8 characters) from the beginning and  end of a string. This is a UTF8-aware version of [trim](http://php.net/trim).</p>
+<p class="description"><p>$str = UTF8::trim($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Andreas Gohr &lt;<a href="mailto:andi@splitbrain.org">andi@splitbrain.org</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			trim
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$charlist</span> = <span class="var-default">NULL</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: input string</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$charlist</span><span class="var-description">: string of characters to remove</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoducfirst" id="ucfirst"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ucfirst</span> (line <span class="line-number">358</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Makes a UTF-8 string's first character uppercase. This is a UTF8-aware  version of [ucfirst](http://php.net/ucfirst).</p>
+<p class="description"><p>$str = UTF8::ucfirst($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			ucfirst
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: mixed case string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoducwords" id="ucwords"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">static method ucwords</span> (line <span class="line-number">382</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Makes the first character of every word in a UTF-8 string uppercase.</p>
+<p class="description"><p>This is a UTF8-aware version of [ucwords](http://php.net/ucwords).</p><p>$str = UTF8::ucwords($str);</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Harry Fuecks &lt;<a href="mailto:hfuecks@gmail.com">hfuecks@gmail.com</a>&gt;</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">uses:</span> UTF8::$server_utf8</li>
+			</ul>
+	
+	<div class="method-signature">
+	    static
+		<span class="method-result">string</span>
+		<span class="method-name">
+			ucwords
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$str</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$str</span><span class="var-description">: mixed case string</span>			</li>
+				</ul>
+		
+			
+	</div>
+
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 17 Nov 2010 20:25:19 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

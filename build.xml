@@ -56,7 +56,7 @@
    <arg line="--report=checkstyle
               --report-file=${basedir}/build/logs/checkstyle.xml
               --standard=Zend
-              application modules" />
+              application" />
   </exec>
  </target>
 

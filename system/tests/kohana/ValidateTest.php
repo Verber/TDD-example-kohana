@@ -14,6 +14,24 @@
  */
 Class Kohana_ValidateTest extends Kohana_Unittest_TestCase
 {
+        protected $default_locale;
+
+	/**
+	 * Sets up the test enviroment
+	 */
+	public function setUp()
+	{
+		parent::setUp();
+
+                setlocale(LC_ALL, 'en_US.utf8');
+	}
+
+        public function  tearDown()
+        {
+            parent::tearDown();
+
+            setlocale(LC_ALL, $this->default_locale);
+        }
 
 	/**
 	 * Provides test data for test_alpha()

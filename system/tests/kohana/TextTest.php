@@ -7,6 +7,7 @@
  */
 Class Kohana_TextTest extends Kohana_Unittest_TestCase
 {
+        protected $default_locale;
 
 	/**
 	 * Sets up the test enviroment
@@ -15,10 +16,18 @@ Class Kohana_TextTest extends Kohana_Unittest_TestCase
 	{
 		parent::setUp();
 
+                setlocale(LC_ALL, 'en_US.utf8');
 		Text::alternate();
 	}
 
-	/**
+        public function  tearDown()
+        {
+            parent::tearDown();
+
+            setlocale(LC_ALL, $this->default_locale);
+        }
+
+        /**
 	 * This test makes sure that auto_p returns an empty string if
 	 * an empty input was provided
 	 *

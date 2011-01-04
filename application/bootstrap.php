@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-//-- Environment setup --------------------------------------------------------
+// -- Environment setup --------------------------------------------------------
 
 /**
  * Set the default time zone.
@@ -34,7 +34,7 @@ spl_autoload_register(array('Kohana', 'auto_load'));
  */
 ini_set('unserialize_callback_func', 'spl_autoload_call');
 
-//-- Configuration and initialization -----------------------------------------
+// -- Configuration and initialization -----------------------------------------
 
 /**
  * Set Kohana::$environment if $_ENV['KOHANA_ENV'] has been supplied.

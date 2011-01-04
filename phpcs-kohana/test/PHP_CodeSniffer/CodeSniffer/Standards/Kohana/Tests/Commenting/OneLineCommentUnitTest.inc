@@ -1,5 +1,0 @@
-<?php
-// Correct
-//Incorrect
-# Incorrect
-?>

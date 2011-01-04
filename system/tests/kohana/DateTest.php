@@ -642,7 +642,7 @@ Class Kohana_DateTest extends Kohana_Unittest_TestCase
 	 */
 	public function test_unix2dos($expected, $timestamp)
 	{
-                $this->markTestSkipped('This Voodoo not works on Ubuntu');
+                //$this->markTestSkipped('This Voodoo not works on Ubuntu');
 		$this->assertSame($expected, Date::unix2dos($timestamp));
 	}
 

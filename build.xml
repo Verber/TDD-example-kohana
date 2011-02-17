@@ -63,6 +63,14 @@
   </exec>
  </target>
 
+ <!-- Generate phploc.csv -->
+ <target name="phploc">
+  <exec executable="phploc">
+   <arg line="--log-csv ${basedir}/build/logs/phploc.csv
+              system" />
+  </exec>
+ </target>
+
  <!-- Generate API documentation -->
  <target name="phpdoc">
   <exec executable="phpdoc">
